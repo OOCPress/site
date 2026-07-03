@@ -16,7 +16,7 @@ body {
   color: var(--color-ink);
   font-family: var(--font-serif);
   font-size: var(--step-0);
-  line-height: 1.62;
+  line-height: var(--leading-body);
   text-rendering: optimizeLegibility;
 }
 
@@ -42,6 +42,10 @@ input {
   font: inherit;
 }
 
+input::placeholder {
+  color: color-mix(in srgb, var(--color-gray), transparent 24%);
+}
+
 button {
   cursor: pointer;
 }
@@ -52,8 +56,8 @@ button {
 }
 
 ::selection {
-  background: var(--color-accent-soft);
-  color: var(--color-ink);
+  background: var(--color-magenta);
+  color: var(--color-white);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -66,4 +70,3 @@ button {
     transition-duration: 0.001ms !important;
   }
 }
-

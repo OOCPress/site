@@ -13,8 +13,8 @@
 
 .band--ink {
   background:
-    linear-gradient(120deg, rgb(255 34 137 / 18%), transparent 42%),
-    linear-gradient(135deg, var(--color-ink), #071521 68%, #10115f);
+    linear-gradient(120deg, color-mix(in srgb, var(--color-magenta), transparent 82%), transparent 42%),
+    linear-gradient(135deg, var(--color-ink), var(--color-field-mid) 68%, var(--color-field-register));
   color: var(--color-white);
 }
 
@@ -24,7 +24,7 @@
 }
 
 .band--ink p {
-  color: rgb(255 255 255 / 78%);
+  color: color-mix(in srgb, var(--color-white), transparent 22%);
 }
 
 .section__header {
@@ -78,10 +78,10 @@
 }
 
 .page--detail .prose {
-  background: var(--color-surface);
-  border-left: 4px solid var(--color-accent);
+  background: var(--color-box-tint);
+  border-left: 4px solid var(--color-ink-2);
   padding: var(--space-6);
-  box-shadow: 0 1px 0 var(--color-rule);
+  box-shadow: var(--shadow-soft);
 }
 
 .detail-nav {

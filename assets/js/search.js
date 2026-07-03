@@ -65,9 +65,11 @@ export function initSearch() {
   const panelResults = panel?.querySelector("[data-search-results]");
   const pageInput = document.querySelector(".search-form--page [data-search-input]");
   const pageResults = document.querySelector(".search-form--page ~ [data-search-results]");
+  let lastSearchTrigger = null;
 
-  const openPanel = () => {
+  const openPanel = (trigger) => {
     if (!panel) return;
+    lastSearchTrigger = trigger || document.activeElement;
     panel.classList.add("is-open");
     panel.setAttribute("aria-hidden", "false");
     panelInput?.focus();
@@ -77,9 +79,12 @@ export function initSearch() {
     if (!panel) return;
     panel.classList.remove("is-open");
     panel.setAttribute("aria-hidden", "true");
+    if (lastSearchTrigger instanceof HTMLElement) {
+      lastSearchTrigger.focus();
+    }
   };
 
-  openers.forEach((button) => button.addEventListener("click", openPanel));
+  openers.forEach((button) => button.addEventListener("click", () => openPanel(button)));
   closers.forEach((button) => button.addEventListener("click", closePanel));
 
   document.addEventListener("keydown", (event) => {
@@ -100,4 +105,3 @@ export function initSearch() {
     }
   }
 }
-

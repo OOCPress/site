@@ -3,10 +3,10 @@ h2,
 h3,
 h4 {
   margin: 0;
-  color: var(--color-ink);
+  color: var(--color-ink-2);
   font-family: var(--font-display);
-  font-weight: 900;
-  line-height: 0.98;
+  font-weight: 800;
+  line-height: var(--leading-tight);
 }
 
 h1 {
@@ -14,7 +14,7 @@ h1 {
 }
 
 .page-header h1 {
-  font-size: 4.2rem;
+  font-size: 4.35rem;
   line-height: 1;
 }
 
@@ -24,7 +24,7 @@ h2 {
 
 h3 {
   font-size: var(--step-1);
-  line-height: 1.08;
+  line-height: var(--leading-heading);
 }
 
 .framework-card h2,
@@ -52,6 +52,12 @@ p {
   margin-top: var(--space-5);
 }
 
+.prose p + p,
+.page-content p + p {
+  margin-top: 0;
+  text-indent: 1.2em;
+}
+
 .prose h2,
 .prose h3,
 .page-content h2,
@@ -59,11 +65,51 @@ p {
   margin-top: var(--space-7);
 }
 
+.prose h2 + p,
+.prose h3 + p,
+.page-content h2 + p,
+.page-content h3 + p,
+.prose blockquote + p,
+.page-content blockquote + p,
+.prose ul + p,
+.page-content ul + p,
+.prose ol + p,
+.page-content ol + p {
+  margin-top: var(--space-5);
+  text-indent: 0;
+}
+
+.prose strong,
+.page-content strong {
+  font-family: var(--font-serif);
+  font-weight: 700;
+}
+
 .prose ul,
 .prose ol,
 .page-content ul,
 .page-content ol {
   padding-left: 1.35em;
+}
+
+.prose li + li,
+.page-content li + li {
+  margin-top: var(--space-2);
+}
+
+.prose li::marker,
+.page-content li::marker {
+  color: var(--color-accent);
+}
+
+.prose blockquote,
+.page-content blockquote {
+  margin: var(--space-6) 0;
+  border-left: 4px solid var(--color-accent);
+  background: var(--color-box-tint);
+  color: var(--color-ink-2);
+  padding: var(--space-5) var(--space-6);
+  font-style: italic;
 }
 
 .page-content > p,
@@ -94,7 +140,7 @@ p {
 .kicker,
 .hero__edition {
   color: var(--color-accent);
-  font-size: 0.78rem;
+  font-size: var(--type-label);
   font-weight: 700;
   letter-spacing: 0;
   text-transform: uppercase;
@@ -105,6 +151,14 @@ p {
 .section__header p,
 .detail-meta {
   color: var(--color-gray);
+}
+
+.detail-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  align-items: center;
+  font-size: var(--type-caption);
 }
 
 @media (max-width: 720px) {
