@@ -1,0 +1,37 @@
+columns:
+  - heading: Read
+    links:
+      - label: Book
+        url: /en/book/
+      - label: Table of Contents
+        url: /en/book/table-of-contents/
+      - label: Sample
+        url: /en/book/sample/
+  - heading: Use
+    links:
+      - label: Frameworks
+        url: /en/frameworks/
+      - label: Companion Library
+        url: /en/companion-library/
+      - label: Sources
+        url: /en/sources/
+  - heading: Contact
+    links:
+      - label: Press
+        url: /en/press/
+      - label: About
+        url: /en/about/
+      - label: contact@outofcontext.work
+        url: mailto:contact@outofcontext.work
+legal:
+  - label: Impressum
+    url: /en/legal/impressum/
+  - label: Privacy
+    url: /en/legal/privacy/
+  - label: Terms
+    url: /en/legal/terms/
+  - label: Withdrawal & Refunds
+    url: /en/legal/withdrawal-refunds/
+  - label: Accessibility
+    url: /en/legal/accessibility/
+

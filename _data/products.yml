@@ -1,0 +1,31 @@
+items:
+  - title: Hardcover
+    url: /en/buy/hardcover/
+    status: release-prep
+    summary: Premium print edition for readers who want the physical spine.
+    includes: Release-candidate main book, compact backmatter, companion-route access
+  - title: Paperback
+    url: /en/buy/paperback/
+    status: release-prep
+    summary: Lighter print edition for everyday reading and team circulation.
+    includes: Main book, companion-route access
+  - title: EPUB / PDF
+    url: /en/buy/ebook/
+    status: planned
+    summary: Direct digital edition, planned outside KDP Select exclusivity.
+    includes: EPUB/PDF, updates, companion-route access
+  - title: Audiobook
+    url: /en/buy/audiobook/
+    status: planned
+    summary: Audio edition under evaluation; distribution terms still to be chosen.
+    includes: Audiobook files or channel access once released
+  - title: Bundle
+    url: /en/buy/bundle/
+    status: planned
+    summary: Reader bundle for book plus digital formats and companion materials.
+    includes: Format mix to be decided before launch
+  - title: Team Orders
+    url: /en/buy/team-orders/
+    status: inquiry
+    summary: Bulk and leadership-team routes for organizations.
+    includes: Team reading path, companion library, optional workshop inquiry

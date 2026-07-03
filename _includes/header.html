@@ -1,0 +1,26 @@
+<header class="site-header" data-pagefind-ignore>
+  <div class="site-header__inner">
+    <a class="brand" href="{{ '/en/' | relative_url }}" aria-label="Out of Context home">
+      <span class="brand__mark" aria-hidden="true">OOC</span>
+      <span class="brand__text">Out of Context</span>
+    </a>
+
+    <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="primary-nav">
+      <span class="nav-toggle__line"></span>
+      <span class="sr-only">Menu</span>
+    </button>
+
+    <nav class="primary-nav" id="primary-nav" data-primary-nav aria-label="Primary">
+      {% for item in site.data.navigation.primary %}
+        <a class="primary-nav__link{% if item.style == 'cta' %} primary-nav__link--cta{% endif %}" href="{{ item.url | relative_url }}">{{ item.label }}</a>
+      {% endfor %}
+    </nav>
+
+    <div class="utility-nav" aria-label="Utility">
+      <button class="utility-nav__button" type="button" data-search-open>Search</button>
+      <a class="utility-nav__link" href="{{ '/en/' | relative_url }}">EN</a>
+      <a class="utility-nav__link" href="{{ '/de/' | relative_url }}">DE</a>
+    </div>
+  </div>
+</header>
+

@@ -1,0 +1,29 @@
+<footer class="site-footer" data-pagefind-ignore>
+  <div class="site-footer__inner">
+    <div class="site-footer__brand">
+      <p class="footer-title">Out of Context</p>
+      <p>Book as spine. Frameworks as operating system. Companion library as workbench. Sources as trust layer.</p>
+    </div>
+    <div class="site-footer__columns">
+      {% for column in site.data.footer.columns %}
+        <section class="site-footer__column" aria-labelledby="footer-{{ forloop.index }}">
+          <h2 id="footer-{{ forloop.index }}">{{ column.heading }}</h2>
+          <ul>
+            {% for link in column.links %}
+              <li><a href="{{ link.url | relative_url }}">{{ link.label }}</a></li>
+            {% endfor %}
+          </ul>
+        </section>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="site-footer__legal">
+    <p>Copyright 2026 Dr. Thorsten Fuchs and Anna-Sophie Fuchs.</p>
+    <nav aria-label="Legal">
+      {% for link in site.data.footer.legal %}
+        <a href="{{ link.url | relative_url }}">{{ link.label }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</footer>
+

@@ -1,0 +1,21 @@
+items:
+  - title: Value Creation Map
+    url: /en/frameworks/value-creation-map/
+    summary: Make the actual chain of value visible before redesigning roles, tools, meetings, or incentives.
+    repair: Value and operational collapse
+  - title: Four Rings of Context
+    url: /en/frameworks/four-rings-of-context/
+    summary: Separate purpose, principles, playfield, and state instead of treating every context gap as the same kind of problem.
+    repair: Knowledge, meaning, and coordination collapse
+  - title: Decision Rights and Healthy Hierarchy
+    url: /en/frameworks/decision-rights-healthy-hierarchy/
+    summary: Clarify who may decide what, with which evidence, under which review conditions.
+    repair: Structural and authority collapse
+  - title: Conflict Infrastructure
+    url: /en/frameworks/conflict-infrastructure/
+    summary: Build legitimate paths for disagreement, escalation, repair, appeal, and whistleblowing.
+    repair: Decency and voice collapse
+  - title: Formation Ladder
+    url: /en/frameworks/formation-ladder/
+    summary: Protect the developmental rungs through which novices become professionals, especially in AI-augmented work.
+    repair: Deskilling and adult-formation collapse

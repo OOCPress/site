@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/Archivo-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Archivo Expanded";
+  src: url("../fonts/ArchivoExpanded-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("../fonts/SourceSerif4-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("../fonts/SourceSerif4-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("../fonts/SourceSerif4-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/SpaceMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/SpaceMono-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: light;
+  --color-ink: #091f2e;
+  --color-ink-2: #0f2a44;
+  --color-navy-700: #143b5d;
+  --color-navy-600: #1a4f7e;
+  --color-navy-100: #eef2f6;
+  --color-magenta: #ff2289;
+  --color-accent: #e01070;
+  --color-accent-soft: #fde7f1;
+  --color-paper: #fbf9f5;
+  --color-surface: #ffffff;
+  --color-box-tint: #f3f1eb;
+  --color-gray: #5b6b7a;
+  --color-rule: #d8dee4;
+  --color-white: #ffffff;
+  --color-blue: #2676ff;
+
+  --font-serif: "Source Serif 4", Georgia, serif;
+  --font-display: "Archivo", system-ui, sans-serif;
+  --font-display-wide: "Archivo Expanded", "Archivo", system-ui, sans-serif;
+  --font-mono: "Space Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --step--1: 0.92rem;
+  --step-0: 1.05rem;
+  --step-1: 1.35rem;
+  --step-2: 1.75rem;
+  --step-3: 2.55rem;
+  --step-4: 5.8rem;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+  --space-9: 6rem;
+  --space-10: 8rem;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --measure: 68ch;
+  --measure-wide: 86rem;
+  --measure-narrow: 48rem;
+  --header-height: 72px;
+  --shadow: 0 24px 80px rgb(9 31 46 / 18%);
+}
+
+@media (max-width: 720px) {
+  :root {
+    --step-0: 1rem;
+    --step-1: 1.22rem;
+    --step-2: 1.5rem;
+    --step-3: 2rem;
+    --step-4: 3.35rem;
+  }
+}
+
+@media (max-width: 420px) {
+  :root {
+    --step-4: 2.85rem;
+  }
+}

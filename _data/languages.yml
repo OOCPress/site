@@ -1,0 +1,9 @@
+languages:
+  - code: en
+    label: English
+    url: /en/
+    status: primary
+  - code: de
+    label: Deutsch
+    url: /de/
+    status: translation-in-preparation

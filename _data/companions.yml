@@ -1,0 +1,44 @@
+items:
+  - title: Practice Workbook
+    url: /en/companion-library/practice-workbook/
+    status: coming-with-release
+    version: "2026-07"
+    formats: PDF, printable worksheets
+    audience: Readers and teams
+    summary: Monday Morning actions, reflection prompts, and leadership-team practice paths.
+  - title: Research and Source Compendium
+    url: /en/companion-library/research-source-compendium/
+    status: coming-with-release
+    version: "2026-07"
+    formats: PDF, HTML source register
+    audience: Researchers and reviewers
+    summary: Chapter source notes, evidence boundaries, volatile-data updates, and extended bibliography.
+  - title: Appendix Supplement
+    url: /en/companion-library/appendix-supplement/
+    status: coming-with-release
+    version: "2026-07"
+    formats: PDF
+    audience: Deep readers
+    summary: The companion appendix package containing the formal, tooling, and accountability essays.
+  - title: The Foundation Stack
+    url: /en/companion-library/foundation-stack/
+    status: in-preparation
+    version: "2026-07"
+    formats: PDF, Markdown field kit
+    audience: Practitioners
+    summary: A guide to text, version control, automation, and AI infrastructure.
+  - title: The Functor Lens
+    url: /en/companion-library/functor-lens/
+    status: in-preparation
+    version: "2026-07"
+    formats: PDF, Markdown field packet
+    audience: Formal-model readers
+    summary: A bridge companion to context, containers, meaning, and the Panta Rhei series.
+  - title: Pricing Promises
+    url: /en/companion-library/pricing-promises/
+    status: in-preparation
+    version: "2026-07"
+    formats: PDF, review templates
+    audience: Boards and researchers
+    summary: A no-money paper-market companion on pricing targets, forecasts, and executive promises.
+

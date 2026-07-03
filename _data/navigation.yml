@@ -1,0 +1,25 @@
+primary:
+  - label: Book
+    url: /en/book/
+  - label: Frameworks
+    url: /en/frameworks/
+  - label: Companion Library
+    url: /en/companion-library/
+  - label: Sources
+    url: /en/sources/
+  - label: Press
+    url: /en/press/
+  - label: About
+    url: /en/about/
+  - label: Buy
+    url: /en/buy/
+    style: cta
+
+utility:
+  - label: Search
+    action: search
+  - label: EN
+    url: /en/
+  - label: DE
+    url: /de/
+

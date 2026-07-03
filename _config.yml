@@ -1,0 +1,69 @@
+title: Out of Context
+description: Context collapse is the diagnosis. Formation after context collapse is the work.
+url: "https://outofcontext.work"
+baseurl: ""
+lang: en
+timezone: Europe/Berlin
+permalink: pretty
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+collections:
+  frameworks:
+    output: true
+    permalink: /en/frameworks/:name/
+    sort_by: order
+  companions:
+    output: true
+    permalink: /en/companion-library/:name/
+    sort_by: order
+  products:
+    output: true
+    permalink: /en/buy/:name/
+    sort_by: order
+  updates:
+    output: true
+    permalink: /en/updates/:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      image: /assets/images/cover-og.png
+      lang: en
+  - scope:
+      type: frameworks
+    values:
+      layout: framework
+      section: frameworks
+      type: Framework
+  - scope:
+      type: companions
+    values:
+      layout: companion
+      section: companion-library
+      type: Companion
+  - scope:
+      type: products
+    values:
+      layout: product
+      section: buy
+      type: Product
+  - scope:
+      type: updates
+    values:
+      layout: page
+      section: updates
+      type: Update
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - vendor

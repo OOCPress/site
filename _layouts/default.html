@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang }}">
+  {% include head.html %}
+  <body>
+    {% include skip-link.html %}
+    {% include header.html %}
+    <main id="main" class="site-main" data-pagefind-body data-pagefind-filter="lang:{{ page.lang | default: site.lang }}">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+    {% include search-panel.html %}
+    <script src="{{ '/assets/js/main.js' | relative_url }}" type="module"></script>
+  </body>
+</html>
+

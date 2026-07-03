@@ -1,0 +1,122 @@
+---
+layout: home
+title: Out of Context
+description: Context collapse is the diagnosis. Formation after context collapse is the work.
+lang: en
+---
+
+<section class="hero hero--home">
+  <div class="hero__content">
+    <p class="hero__edition">Second Edition</p>
+    <h1 data-pagefind-meta="title">Out of Context</h1>
+    <p class="hero__claim">We built the future of work.<br>It doesn't work.</p>
+    <p class="hero__lede">A serious reconstruction manual for leaders after context collapse: map value, route conflict, protect formation, and make AI-shaped work carry judgment again.</p>
+    <div class="hero__actions">
+      <a class="button button--primary" href="{{ '/en/buy/' | relative_url }}">Buy the Book</a>
+      <a class="button button--secondary" href="{{ '/en/companion-library/' | relative_url }}">Download Companions</a>
+      <a class="button button--text" href="{{ '/en/frameworks/' | relative_url }}">Explore the Frameworks</a>
+    </div>
+  </div>
+  <figure class="hero__cover">
+    <img src="{{ '/assets/images/cover-second-edition.png' | relative_url }}" alt="Out of Context, Second Edition cover">
+  </figure>
+</section>
+
+<section class="band band--paper">
+  <div class="section-grid section-grid--diagnosis">
+    <div>
+      <p class="kicker">Diagnosis</p>
+      <h2>The problem is not remote work. It is context collapse.</h2>
+    </div>
+    <div class="prose compact">
+      <p>Freedom without form becomes coordination load. Transparency without boundaries becomes noise. Autonomy without decision rights becomes paralysis. AI without formation creates artifacts faster than institutions can grow judgment.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section__header">
+    <p class="kicker">Reconstruction</p>
+    <h2>Five frameworks for context-bearing work.</h2>
+    <p>The release-candidate manuscript now centers on five operating containers, with temporal architecture supporting all of them.</p>
+  </div>
+  <div class="card-grid card-grid--frameworks">
+    {% for item in site.data.frameworks.items %}
+      <a class="framework-card" href="{{ item.url | relative_url }}">
+        <span>{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.summary }}</p>
+        <small>{{ item.repair }}</small>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="band band--ink">
+  <div class="section-grid">
+    <div>
+      <p class="kicker">The Book</p>
+      <h2>A premium reconstruction manual for leaders after context collapse.</h2>
+    </div>
+    <div class="prose compact">
+      <p>The book is the spine: 45 chapters across four parts, a compact action-oriented backmatter, and companion routes for the deeper appendices, workbook, and source trail.</p>
+      <p><a class="button button--light" href="{{ '/en/book/' | relative_url }}">Read about the book</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section__header">
+    <p class="kicker">Start Here</p>
+    <h2>Find the door by the pain you already feel.</h2>
+  </div>
+  <div class="feature-list">
+    <a href="{{ '/en/frameworks/decision-rights-healthy-hierarchy/' | relative_url }}">Nothing gets decided: clarify decision rights and review.</a>
+    <a href="{{ '/en/frameworks/conflict-infrastructure/' | relative_url }}">Everything is "fine": give disagreement a legitimate path.</a>
+    <a href="{{ '/en/ai-and-formation/' | relative_url }}">AI creates more artifacts: protect the formation ladder.</a>
+    <a href="{{ '/en/frameworks/value-creation-map/' | relative_url }}">Too much work, too little value: map how value is actually created.</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section__header">
+    <p class="kicker">Companion Library</p>
+    <h2>The book is the spine. The companion library is the workbench.</h2>
+  </div>
+  <div class="card-grid">
+    {% for item in site.data.companions.items limit: 6 %}
+      <a class="companion-card" href="{{ item.url | relative_url }}">
+        {% include status-badge.html status=item.status %}
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.summary }}</p>
+        <small>{{ item.formats }} · {{ item.version }}</small>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="band band--paper">
+  <div class="section__header">
+    <p class="kicker">Flagship Ideas</p>
+    <h2>Read the release-candidate arguments first.</h2>
+  </div>
+  <div class="feature-list">
+    <a href="{{ '/en/frameworks/conflict-infrastructure/' | relative_url }}">Conflict Infrastructure: repair is infrastructure, not personality.</a>
+    <a href="{{ '/en/ai-and-formation/' | relative_url }}">The Missing Rung: AI exposes the apprenticeship crisis.</a>
+    <a href="{{ '/en/frameworks/value-creation-map/' | relative_url }}">Operational Clarity: draw the value chain before changing the org chart.</a>
+    <a href="{{ '/en/sources/' | relative_url }}">The evidence shelf: public research, composite scenes, author models, analogies, and practice heuristics stay separate.</a>
+  </div>
+</section>
+
+<section class="section section--closing">
+  <div class="section-grid">
+    <div>
+      <p class="kicker">Trust Layer</p>
+      <h2>Creative nonfiction, public sources, author models, and speculative bridges are kept visibly separate.</h2>
+    </div>
+    <div class="button-row">
+      <a class="button button--primary" href="{{ '/en/sources/' | relative_url }}">View Sources</a>
+      <a class="button button--secondary" href="{{ '/en/press/' | relative_url }}">Open Press Kit</a>
+    </div>
+  </div>
+</section>

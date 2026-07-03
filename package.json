@@ -1,0 +1,10 @@
+{
+  "name": "out-of-context-site",
+  "private": true,
+  "scripts": {
+    "build": "bundle exec jekyll build && npx -y pagefind --site _site",
+    "serve": "bundle exec jekyll serve --livereload",
+    "search": "npx -y pagefind --site _site --serve"
+  }
+}
+

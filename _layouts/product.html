@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="page page--detail" data-pagefind-filter="type:Product">
+  <header class="page-header">
+    <p class="kicker">Format</p>
+    <h1 data-pagefind-meta="title">{{ page.title }}</h1>
+    <p class="page-header__lede" data-pagefind-meta="summary">{{ page.subtitle }}</p>
+    <p class="detail-meta">{% include status-badge.html status=page.status %}</p>
+  </header>
+  <div class="prose">
+    {{ content }}
+  </div>
+  <nav class="detail-nav" aria-label="Product navigation">
+    <a href="{{ '/en/buy/' | relative_url }}">All formats</a>
+    <a href="{{ '/en/legal/withdrawal-refunds/' | relative_url }}">Withdrawal and refunds</a>
+  </nav>
+</article>
