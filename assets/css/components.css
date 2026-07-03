@@ -293,6 +293,10 @@
   margin-top: var(--space-4);
 }
 
+.card-grid--frameworks .framework-card {
+  padding: var(--space-4);
+}
+
 .framework-card span {
   color: var(--color-accent);
   font-family: var(--font-mono);

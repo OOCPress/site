@@ -39,6 +39,11 @@ h3 {
   hyphens: auto;
 }
 
+.card-grid--frameworks .framework-card h3 {
+  font-size: 1.45rem;
+  line-height: var(--leading-heading);
+}
+
 p {
   margin: 0;
 }
