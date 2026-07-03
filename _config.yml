@@ -1,7 +1,7 @@
 title: Out of Context
 description: Context collapse is the diagnosis. Formation after context collapse is the work.
-url: "https://outofcontext.work"
-baseurl: ""
+url: "https://oocpress.github.io"
+baseurl: "/site"
 lang: en
 timezone: Europe/Berlin
 permalink: pretty
