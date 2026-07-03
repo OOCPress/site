@@ -134,9 +134,7 @@ p {
 .kicker,
 .hero__edition,
 .status-badge,
-.detail-meta,
-.button,
-.footer-title {
+.detail-meta {
   font-family: var(--font-mono);
 }
 
