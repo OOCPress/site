@@ -38,29 +38,38 @@
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: var(--space-3);
-  color: var(--color-ink);
+  justify-self: start;
+  gap: 0.7rem;
+  color: var(--color-ink-2);
   text-decoration: none;
 }
 
 .brand__mark {
   display: grid;
   place-items: center;
-  width: 2.6rem;
-  height: 2.6rem;
-  border: var(--hairline);
-  border-radius: var(--radius-md);
+  width: 1.625rem;
+  height: 1.625rem;
+  border-radius: 50%;
   background:
-    linear-gradient(135deg, var(--color-ink), var(--color-field-register) 55%, var(--color-accent));
+    linear-gradient(135deg, var(--color-magenta), var(--color-brand-violet));
   color: var(--color-white);
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  font-weight: 700;
+  flex: none;
+}
+
+.brand__mark svg {
+  width: 0.875rem;
+  height: 0.875rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: 2.2;
 }
 
 .brand__text {
   font-family: var(--font-display);
-  font-weight: 800;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1;
 }
 
 .primary-nav,
@@ -69,16 +78,35 @@
   gap: var(--space-3);
   align-items: center;
   justify-content: flex-end;
-  font-size: 0.82rem;
   font-weight: 700;
+}
+
+.primary-nav {
+  font-family: var(--font-display);
+  font-size: 0.8125rem;
+  line-height: 1;
+}
+
+.utility-nav {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  line-height: 1;
+  text-transform: uppercase;
 }
 
 .primary-nav__link,
 .utility-nav__link,
 .utility-nav__button {
-  color: var(--color-ink);
+  display: inline-flex;
+  align-items: center;
+  color: var(--color-ink-2);
   text-decoration: none;
   transition: color var(--motion-fast), border-color var(--motion-fast), background var(--motion-fast);
+}
+
+.utility-nav__link,
+.utility-nav__button {
+  text-transform: uppercase;
 }
 
 .primary-nav__link:hover,
