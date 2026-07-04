@@ -22,8 +22,8 @@
   z-index: 100;
   background: var(--glass-paper);
   border-bottom: var(--glass-border-paper);
-  backdrop-filter: blur(var(--glass-blur-md));
-  -webkit-backdrop-filter: blur(var(--glass-blur-md));
+  backdrop-filter: blur(var(--glass-blur-sm));
+  -webkit-backdrop-filter: blur(var(--glass-blur-sm));
 }
 
 .site-header__inner {
