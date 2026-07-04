@@ -1,9 +1,10 @@
 ---
 title: Datenschutz
-description: Datenschutzhinweise in Vorbereitung.
+description: Datenschutzhinweise für die Out-of-Context-Website.
 lang: de
 kicker: Rechtliches
 ---
 
-Entwurfsseite. Die vollständigen Datenschutzhinweise werden vor dem öffentlichen Launch ergänzt.
+Entwurfsseite für die Launch-Vorbereitung.
 
+Diese statische Entwicklungswebsite nutzt derzeit keine Analytics, keinen Checkout, keine Newsletter-Anmeldung und keine Third-Party-Embeds. Die öffentlichen Datenschutzhinweise werden ergänzt, bevor solche Funktionen aktiviert werden.

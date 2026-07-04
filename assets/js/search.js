@@ -1,5 +1,21 @@
 let pagefind;
 
+function searchMessages() {
+  if (document.documentElement.lang === "de") {
+    return {
+      empty: "Geben Sie einen Suchbegriff ein.",
+      unavailable: "Die Suche ist nach dem Pagefind-Build verfügbar.",
+      none: "Keine Ergebnisse gefunden."
+    };
+  }
+
+  return {
+    empty: "Type a search term to begin.",
+    unavailable: "Search is available after the Pagefind build step.",
+    none: "No results found."
+  };
+}
+
 async function loadPagefind() {
   if (pagefind) return pagefind;
   try {
@@ -20,15 +36,16 @@ function escapeHtml(value) {
 }
 
 async function runSearch(query, resultsNode) {
+  const messages = searchMessages();
   const trimmed = query.trim();
   if (!trimmed) {
-    resultsNode.innerHTML = "<p>Type a search term to begin.</p>";
+    resultsNode.innerHTML = `<p>${messages.empty}</p>`;
     return;
   }
 
   const pf = await loadPagefind();
   if (!pf) {
-    resultsNode.innerHTML = "<p>Search is available after the Pagefind build step.</p>";
+    resultsNode.innerHTML = `<p>${messages.unavailable}</p>`;
     return;
   }
 
@@ -36,7 +53,7 @@ async function runSearch(query, resultsNode) {
   const results = await Promise.all(search.results.slice(0, 10).map((result) => result.data()));
 
   if (!results.length) {
-    resultsNode.innerHTML = "<p>No results found.</p>";
+    resultsNode.innerHTML = `<p>${messages.none}</p>`;
     return;
   }
 

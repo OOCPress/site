@@ -1,19 +1,36 @@
 ---
 layout: default
 ---
+{% assign page_lang = page.lang | default: site.lang %}
+{% if page_lang == 'de' %}
+  {% assign framework_kicker = 'Rahmenwerk' %}
+  {% assign repairs_label = 'Repariert' %}
+  {% assign all_frameworks_label = 'Alle Rahmenwerke' %}
+  {% assign all_frameworks_url = '/de/rahmenwerke/' %}
+  {% assign companions_label = 'Begleitbibliothek' %}
+  {% assign companions_url = '/de/begleitbibliothek/' %}
+  {% assign nav_label = 'Rahmenwerk-Navigation' %}
+{% else %}
+  {% assign framework_kicker = 'Framework' %}
+  {% assign repairs_label = 'Repairs' %}
+  {% assign all_frameworks_label = 'All frameworks' %}
+  {% assign all_frameworks_url = '/en/frameworks/' %}
+  {% assign companions_label = 'Companion library' %}
+  {% assign companions_url = '/en/companion-library/' %}
+  {% assign nav_label = 'Framework navigation' %}
+{% endif %}
 <article class="page page--detail" data-pagefind-filter="type:Framework">
   <header class="page-header">
-    <p class="kicker">Framework</p>
+    <p class="kicker">{{ framework_kicker }}</p>
     <h1 data-pagefind-meta="title">{{ page.title }}</h1>
     <p class="page-header__lede" data-pagefind-meta="summary">{{ page.subtitle }}</p>
-    {% if page.repair %}<p class="detail-meta">Repairs: {{ page.repair }}</p>{% endif %}
+    {% if page.repair %}<p class="detail-meta">{{ repairs_label }}: {{ page.repair }}</p>{% endif %}
   </header>
   <div class="prose">
     {{ content }}
   </div>
-  <nav class="detail-nav" aria-label="Framework navigation">
-    <a href="{{ '/en/frameworks/' | relative_url }}">All frameworks</a>
-    <a href="{{ '/en/companion-library/' | relative_url }}">Companion library</a>
+  <nav class="detail-nav" aria-label="{{ nav_label }}">
+    <a href="{{ all_frameworks_url | relative_url }}">{{ all_frameworks_label }}</a>
+    <a href="{{ companions_url | relative_url }}">{{ companions_label }}</a>
   </nav>
 </article>
-

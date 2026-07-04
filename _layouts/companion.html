@@ -1,23 +1,40 @@
 ---
 layout: default
 ---
+{% assign page_lang = page.lang | default: site.lang %}
+{% if page_lang == 'de' %}
+  {% assign companion_kicker = 'Begleitmaterial' %}
+  {% assign version_label = 'Version' %}
+  {% assign all_companions_label = 'Alle Begleitmaterialien' %}
+  {% assign all_companions_url = '/de/begleitbibliothek/' %}
+  {% assign sources_label = 'Quellen und Updates' %}
+  {% assign sources_url = '/de/quellen/' %}
+  {% assign nav_label = 'Begleitmaterial-Navigation' %}
+{% else %}
+  {% assign companion_kicker = 'Companion' %}
+  {% assign version_label = 'Version' %}
+  {% assign all_companions_label = 'All companions' %}
+  {% assign all_companions_url = '/en/companion-library/' %}
+  {% assign sources_label = 'Sources and updates' %}
+  {% assign sources_url = '/en/sources/' %}
+  {% assign nav_label = 'Companion navigation' %}
+{% endif %}
 <article class="page page--detail" data-pagefind-filter="type:Companion">
   <header class="page-header">
-    <p class="kicker">Companion</p>
+    <p class="kicker">{{ companion_kicker }}</p>
     <h1 data-pagefind-meta="title">{{ page.title }}</h1>
     <p class="page-header__lede" data-pagefind-meta="summary">{{ page.subtitle }}</p>
     <p class="detail-meta">
       {% include status-badge.html status=page.status %}
-      {% if page.version %}<span>Version {{ page.version }}</span>{% endif %}
+      {% if page.version %}<span>{{ version_label }} {{ page.version }}</span>{% endif %}
       {% if page.formats %}<span>{{ page.formats | join: ', ' }}</span>{% endif %}
     </p>
   </header>
   <div class="prose">
     {{ content }}
   </div>
-  <nav class="detail-nav" aria-label="Companion navigation">
-    <a href="{{ '/en/companion-library/' | relative_url }}">All companions</a>
-    <a href="{{ '/en/sources/' | relative_url }}">Sources and updates</a>
+  <nav class="detail-nav" aria-label="{{ nav_label }}">
+    <a href="{{ all_companions_url | relative_url }}">{{ all_companions_label }}</a>
+    <a href="{{ sources_url | relative_url }}">{{ sources_label }}</a>
   </nav>
 </article>
-

@@ -1,9 +1,25 @@
 ---
 layout: default
 ---
+{% assign page_lang = page.lang | default: site.lang %}
+{% if page_lang == 'de' %}
+  {% assign product_kicker = 'Format' %}
+  {% assign all_formats_label = 'Alle Formate' %}
+  {% assign all_formats_url = '/de/kaufen/' %}
+  {% assign refunds_label = 'Widerruf und Rückerstattung' %}
+  {% assign refunds_url = '/de/rechtliches/widerruf-rueckerstattung/' %}
+  {% assign nav_label = 'Format-Navigation' %}
+{% else %}
+  {% assign product_kicker = 'Format' %}
+  {% assign all_formats_label = 'All formats' %}
+  {% assign all_formats_url = '/en/buy/' %}
+  {% assign refunds_label = 'Withdrawal and refunds' %}
+  {% assign refunds_url = '/en/legal/withdrawal-refunds/' %}
+  {% assign nav_label = 'Product navigation' %}
+{% endif %}
 <article class="page page--detail" data-pagefind-filter="type:Product">
   <header class="page-header">
-    <p class="kicker">Format</p>
+    <p class="kicker">{{ product_kicker }}</p>
     <h1 data-pagefind-meta="title">{{ page.title }}</h1>
     <p class="page-header__lede" data-pagefind-meta="summary">{{ page.subtitle }}</p>
     <p class="detail-meta">{% include status-badge.html status=page.status %}</p>
@@ -11,8 +27,8 @@ layout: default
   <div class="prose">
     {{ content }}
   </div>
-  <nav class="detail-nav" aria-label="Product navigation">
-    <a href="{{ '/en/buy/' | relative_url }}">All formats</a>
-    <a href="{{ '/en/legal/withdrawal-refunds/' | relative_url }}">Withdrawal and refunds</a>
+  <nav class="detail-nav" aria-label="{{ nav_label }}">
+    <a href="{{ all_formats_url | relative_url }}">{{ all_formats_label }}</a>
+    <a href="{{ refunds_url | relative_url }}">{{ refunds_label }}</a>
   </nav>
 </article>

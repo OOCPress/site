@@ -6,4 +6,4 @@ languages:
   - code: de
     label: Deutsch
     url: /de/
-    status: translation-in-preparation
+    status: active

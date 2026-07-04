@@ -29,3 +29,34 @@ items:
     status: inquiry
     summary: Bulk and leadership-team routes for organizations.
     includes: Team reading path, companion library, optional workshop inquiry
+items_de:
+  - title: Hardcover
+    url: /de/kaufen/hardcover/
+    status: release-prep
+    summary: Premium-Printausgabe für Leserinnen und Leser, die die physische Wirbelsäule wollen.
+    includes: Hauptbuch im Release-Kandidaten, kompaktes Backmatter, Zugang zur Begleitbibliothek
+  - title: Paperback
+    url: /de/kaufen/paperback/
+    status: release-prep
+    summary: Leichtere Printausgabe für Alltag, Umlauf und Teamlektüre.
+    includes: Hauptbuch, Zugang zur Begleitbibliothek
+  - title: EPUB / PDF
+    url: /de/kaufen/epub-pdf/
+    status: planned
+    summary: Direkte digitale Ausgabe, geplant außerhalb digitaler KDP-Select-Exklusivität.
+    includes: EPUB/PDF, Updates, Zugang zur Begleitbibliothek
+  - title: Hörbuch
+    url: /de/kaufen/hoerbuch/
+    status: planned
+    summary: Audioausgabe in Prüfung; Distributionsbedingungen noch offen.
+    includes: Hörbuchdateien oder Plattformzugang nach Veröffentlichung
+  - title: Bundle
+    url: /de/kaufen/bundle/
+    status: planned
+    summary: Leserbundle für Buch, digitale Formate und Begleitmaterial.
+    includes: Formatmix wird vor Launch festgelegt
+  - title: Team-Bestellungen
+    url: /de/kaufen/team-bestellungen/
+    status: inquiry
+    summary: Mengen- und Führungsteamrouten für Organisationen.
+    includes: Team-Lesepfad, Begleitbibliothek, optionale Workshop-Anfrage

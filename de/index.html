@@ -1,15 +1,122 @@
 ---
-layout: page
+layout: home
 title: Out of Context
-description: Die deutsche Ausgabe ist in Vorbereitung.
+description: Kontextkollaps ist die Diagnose. Formation nach dem Kontextkollaps ist die Arbeit.
 lang: de
-kicker: Deutsch
 ---
 
-Die deutsche Ausgabe ist in Vorbereitung. Diese Seite sammelt bis dahin die wichtigsten Informationen, Begleitmaterialien und Aktualisierungen zur zweiten englischen Ausgabe.
+<section class="hero hero--home">
+  <div class="hero__content">
+    <p class="hero__edition">Zweite Ausgabe</p>
+    <h1 data-pagefind-meta="title">Out of Context</h1>
+    <p class="hero__claim">Wir haben die Zukunft der Arbeit gebaut.<br>Sie funktioniert nicht.</p>
+    <p class="hero__lede">Ein ernsthaftes Rekonstruktionshandbuch für Führung nach dem Kontextkollaps: Wert sichtbar machen, Konflikt routen, Formation schützen und KI-geprägte Arbeit wieder urteilsfähig machen.</p>
+    <div class="hero__actions">
+      <a class="button button--primary" href="{{ '/de/kaufen/' | relative_url }}">Buch kaufen</a>
+      <a class="button button--secondary" href="{{ '/de/begleitbibliothek/' | relative_url }}">Begleitmaterial öffnen</a>
+      <a class="button button--text" href="{{ '/de/rahmenwerke/' | relative_url }}">Rahmenwerke erkunden</a>
+    </div>
+  </div>
+  <figure class="hero__cover">
+    <img src="{{ '/assets/images/cover-second-edition.png' | relative_url }}" alt="Cover von Out of Context, Zweite Ausgabe">
+  </figure>
+</section>
 
-- [Englische Startseite](/en/)
-- [Begleitbibliothek](/de/begleitbibliothek/)
-- [Kaufen](/de/kaufen/)
-- [Impressum](/de/rechtliches/impressum/)
+<section class="band band--paper">
+  <div class="section-grid section-grid--diagnosis">
+    <div>
+      <p class="kicker">Diagnose</p>
+      <h2>Das Problem ist nicht Remote Work. Das Problem ist Kontextkollaps.</h2>
+    </div>
+    <div class="prose compact">
+      <p>Freiheit ohne Form wird Koordinationslast. Transparenz ohne Grenzen wird Lärm. Autonomie ohne Entscheidungsrechte wird Lähmung. KI ohne Formation erzeugt Artefakte schneller, als Institutionen Urteilskraft wachsen lassen können.</p>
+    </div>
+  </div>
+</section>
 
+<section class="section">
+  <div class="section__header">
+    <p class="kicker">Rekonstruktion</p>
+    <h2>Fünf Rahmenwerke für kontexttragende Arbeit.</h2>
+    <p>Das Release-Candidate-Manuskript zentriert fünf operative Container; zeitliche Architektur hält alle fünf am Leben.</p>
+  </div>
+  <div class="card-grid card-grid--frameworks">
+    {% for item in site.data.frameworks.items_de limit: 5 %}
+      <a class="framework-card" href="{{ item.url | relative_url }}">
+        <span>{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.summary }}</p>
+        <small>{{ item.repair }}</small>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="band band--ink">
+  <div class="section-grid">
+    <div>
+      <p class="kicker">Das Buch</p>
+      <h2>Ein hochwertiges Rekonstruktionshandbuch für Führung nach dem Kontextkollaps.</h2>
+    </div>
+    <div class="prose compact">
+      <p>Das Buch ist die Wirbelsäule: 45 Kapitel in vier Teilen, ein kompaktes, handlungsorientiertes Backmatter und klare Wege zu Companion-Papieren, Workbook und Quellenpfad.</p>
+      <p><a class="button button--light" href="{{ '/de/buch/' | relative_url }}">Mehr über das Buch</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section__header">
+    <p class="kicker">Einstieg</p>
+    <h2>Finden Sie die Tür über den Schmerz, den Sie bereits spüren.</h2>
+  </div>
+  <div class="feature-list">
+    <a href="{{ '/de/rahmenwerke/entscheidungsrechte-gesunde-hierarchie/' | relative_url }}">Nichts wird entschieden: Entscheidungsrechte und Review klären.</a>
+    <a href="{{ '/de/rahmenwerke/konfliktinfrastruktur/' | relative_url }}">Alles ist "okay": Widerspruch braucht einen legitimen Weg.</a>
+    <a href="{{ '/de/ki-und-formation/' | relative_url }}">KI erzeugt mehr Artefakte: die Formationsleiter schützen.</a>
+    <a href="{{ '/de/rahmenwerke/wertschoepfungskarte/' | relative_url }}">Zu viel Arbeit, zu wenig Wert: sichtbar machen, wie Wert tatsächlich entsteht.</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section__header">
+    <p class="kicker">Begleitbibliothek</p>
+    <h2>Das Buch ist die Wirbelsäule. Die Begleitbibliothek ist die Werkbank.</h2>
+  </div>
+  <div class="card-grid">
+    {% for item in site.data.companions.items_de limit: 6 %}
+      <a class="companion-card" href="{{ item.url | relative_url }}">
+        {% include status-badge.html status=item.status %}
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.summary }}</p>
+        <small>{{ item.formats }} · {{ item.version }}</small>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="band band--paper">
+  <div class="section__header">
+    <p class="kicker">Leitideen</p>
+    <h2>Lesen Sie zuerst die tragenden Release-Candidate-Argumente.</h2>
+  </div>
+  <div class="feature-list">
+    <a href="{{ '/de/rahmenwerke/konfliktinfrastruktur/' | relative_url }}">Konfliktinfrastruktur: Reparatur ist Infrastruktur, nicht Persönlichkeit.</a>
+    <a href="{{ '/de/ki-und-formation/' | relative_url }}">Die fehlende Stufe: KI legt die Ausbildungskrise offen.</a>
+    <a href="{{ '/de/rahmenwerke/wertschoepfungskarte/' | relative_url }}">Operative Klarheit: die Wertkette zeichnen, bevor das Organigramm geändert wird.</a>
+    <a href="{{ '/de/quellen/' | relative_url }}">Das Evidenzregal: öffentliche Forschung, Composite-Szenen, Autorenmodelle, Analogien und Praxisheuristiken bleiben getrennt.</a>
+  </div>
+</section>
+
+<section class="section section--closing">
+  <div class="section-grid">
+    <div>
+      <p class="kicker">Vertrauensschicht</p>
+      <h2>Kreative Nonfiction, öffentliche Quellen, Autorenmodelle und spekulative Brücken werden sichtbar getrennt.</h2>
+    </div>
+    <div class="button-row">
+      <a class="button button--primary" href="{{ '/de/quellen/' | relative_url }}">Quellen ansehen</a>
+      <a class="button button--secondary" href="{{ '/de/presse/' | relative_url }}">Pressekit öffnen</a>
+    </div>
+  </div>
+</section>

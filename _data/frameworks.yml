@@ -19,3 +19,34 @@ items:
     url: /en/frameworks/formation-ladder/
     summary: Protect the developmental rungs through which novices become professionals, especially in AI-augmented work.
     repair: Deskilling and adult-formation collapse
+items_de:
+  - title: Wertschöpfungskarte
+    url: /de/rahmenwerke/wertschoepfungskarte/
+    summary: Machen Sie die tatsächliche Kette der Wertentstehung sichtbar, bevor Rollen, Tools, Meetings oder Anreize umgebaut werden.
+    subtitle: Die reale Wertkette sichtbar machen, bevor irgendetwas neu organisiert wird.
+    repair: Wert- und Operationskollaps
+  - title: Vier Kontextringe
+    url: /de/rahmenwerke/vier-kontextringe/
+    summary: Trennen Sie Zweck, Prinzipien, Spielfeld und Zustand, statt jede Kontextlücke als dasselbe Problem zu behandeln.
+    subtitle: Zweck, Prinzipien, Spielfeld und Zustand unterscheiden.
+    repair: Wissens-, Bedeutungs- und Koordinationskollaps
+  - title: Entscheidungsrechte und gesunde Hierarchie
+    url: /de/rahmenwerke/entscheidungsrechte-gesunde-hierarchie/
+    summary: Klären Sie, wer was entscheiden darf, mit welcher Evidenz und unter welchen Bedingungen der Überprüfung.
+    subtitle: Klären, wer was entscheiden darf, mit welcher Evidenz und unter welcher Review-Logik.
+    repair: Struktur- und Autoritätskollaps
+  - title: Konfliktinfrastruktur
+    url: /de/rahmenwerke/konfliktinfrastruktur/
+    summary: Bauen Sie legitime Wege für Widerspruch, Eskalation, Reparatur, Berufung und Whistleblowing.
+    subtitle: Stimme, Widerspruch, Eskalation und Reparatur als organisatorisches Handwerk.
+    repair: Anstands- und Stimmenkollaps
+  - title: Formationsleiter
+    url: /de/rahmenwerke/formationsleiter/
+    summary: Schützen Sie die Entwicklungsstufen, durch die Novizinnen und Novizen zu Fachleuten werden, gerade in KI-augmentierter Arbeit.
+    subtitle: Die Stufen schützen, durch die Anfänger zu Profis werden.
+    repair: De-Skilling und Kollaps erwachsener Formation
+  - title: 90-Tage-Kontext-Betriebssystem
+    url: /de/rahmenwerke/90-tage-kontext-betriebssystem/
+    summary: Eine praktische Sequenz, um von der Diagnose in die Rekonstruktion zu kommen.
+    subtitle: Eine erste Abfolge von Containern für die Rekonstruktion.
+    repair: Aktivierung auf Führungsebene

@@ -1,13 +1,12 @@
 ---
 title: Impressum
-description: Anbieterkennzeichnung in Vorbereitung.
+description: Anbieterkennzeichnung für die Out-of-Context-Website.
 lang: de
 kicker: Rechtliches
 ---
 
-Entwurfsseite für die lokale Entwicklung.
+Entwurfsseite für die Launch-Vorbereitung.
 
-Die vollständigen Anbieterinformationen werden vor dem öffentlichen Launch ergänzt.
+Die Anbieterinformationen werden vor Commerce oder öffentlichem Launch vollständig ergänzt.
 
 Kontakt: [contact@outofcontext.work](mailto:contact@outofcontext.work)
-

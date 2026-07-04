@@ -14,5 +14,4 @@ Planned excerpt candidates:
 - **The Pattern in the Wreckage** - the canonical diagnosis of context collapse.
 - **The Data Delusion** - metric retirement and the end of measurement theater.
 
-Until release, use the [framework pages](/en/frameworks/) for the public-facing route through the argument.
-
+Until release, use the [framework pages]({{ '/en/frameworks/' | relative_url }}) for the public-facing route through the argument.

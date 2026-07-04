@@ -1,11 +1,14 @@
+{% assign page_lang = page.lang | default: site.lang %}
+{% assign footer = site.data.footer[page_lang] %}
+{% unless footer %}{% assign footer = site.data.footer.en %}{% endunless %}
 <footer class="site-footer" data-pagefind-ignore>
   <div class="site-footer__inner">
     <div class="site-footer__brand">
       <p class="footer-title">Out of Context</p>
-      <p>Book as spine. Frameworks as operating system. Companion library as workbench. Sources as trust layer.</p>
+      <p>{{ footer.tagline }}</p>
     </div>
     <div class="site-footer__columns">
-      {% for column in site.data.footer.columns %}
+      {% for column in footer.columns %}
         <section class="site-footer__column" aria-labelledby="footer-{{ forloop.index }}">
           <h2 id="footer-{{ forloop.index }}">{{ column.heading }}</h2>
           <ul>
@@ -18,12 +21,11 @@
     </div>
   </div>
   <div class="site-footer__legal">
-    <p>Copyright 2026 Dr. Thorsten Fuchs and Anna-Sophie Fuchs.</p>
-    <nav aria-label="Legal">
-      {% for link in site.data.footer.legal %}
+    <p>{{ footer.copyright }}</p>
+    <nav aria-label="{{ footer.legal_label }}">
+      {% for link in footer.legal %}
         <a href="{{ link.url | relative_url }}">{{ link.label }}</a>
       {% endfor %}
     </nav>
   </div>
 </footer>
-

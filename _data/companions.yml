@@ -41,4 +41,46 @@ items:
     formats: PDF, review templates
     audience: Boards and researchers
     summary: A no-money paper-market companion on pricing targets, forecasts, and executive promises.
-
+items_de:
+  - title: Praxis-Workbook
+    url: /de/begleitbibliothek/praxis-workbook/
+    status: coming-with-release
+    version: "2026-07"
+    formats: PDF, druckbare Arbeitsblätter
+    audience: Leserinnen, Leser und Teams
+    summary: Monday-Morning-Aktionen, Reflexionsfragen und Praxispfade für Führungsteams.
+  - title: Forschungs- und Quellenkompendium
+    url: /de/begleitbibliothek/quellenkompendium/
+    status: coming-with-release
+    version: "2026-07"
+    formats: PDF, HTML-Quellenregister
+    audience: Forschende und Reviewer
+    summary: Kapitel-Quellennotizen, Evidenzgrenzen, volatile Datenupdates und erweiterte Bibliografie.
+  - title: Appendix-Supplement
+    url: /de/begleitbibliothek/appendix-supplement/
+    status: coming-with-release
+    version: "2026-07"
+    formats: PDF
+    audience: vertiefende Leserinnen und Leser
+    summary: Das ausgelagerte Appendix-Paket mit formalen, technischen und accountability-bezogenen Essays.
+  - title: Der Foundation Stack
+    url: /de/begleitbibliothek/foundation-stack/
+    status: in-preparation
+    version: "2026-07"
+    formats: PDF, Markdown-Field-Kit
+    audience: Praktikerinnen und Praktiker
+    summary: Ein Leitfaden für Text, Versionskontrolle, Automatisierung und KI-Infrastruktur.
+  - title: Die Functor Lens
+    url: /de/begleitbibliothek/functor-lens/
+    status: in-preparation
+    version: "2026-07"
+    formats: PDF, Markdown-Field-Packet
+    audience: Leserinnen und Leser formaler Modelle
+    summary: Eine Brücke zu Kontext, Containern, Bedeutung und der Panta-Rhei-Reihe.
+  - title: Pricing Promises
+    url: /de/begleitbibliothek/pricing-promises/
+    status: in-preparation
+    version: "2026-07"
+    formats: PDF, Review-Vorlagen
+    audience: Boards und Forschende
+    summary: Ein No-Money-Paper-Market-Companion zu Preiszielen, Forecasts und Versprechen von Führung.

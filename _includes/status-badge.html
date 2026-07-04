@@ -1,3 +1,18 @@
 {% assign status = include.status | default: 'planned' %}
-<span class="status-badge status-badge--{{ status | slugify }}">{{ status | replace: '-', ' ' }}</span>
-
+{% assign page_lang = include.lang | default: page.lang | default: site.lang %}
+{% assign label = status | replace: '-', ' ' %}
+{% if page_lang == 'de' %}
+  {% case status %}
+    {% when 'coming-with-release' %}
+      {% assign label = 'erscheint zum Release' %}
+    {% when 'in-preparation' %}
+      {% assign label = 'in Vorbereitung' %}
+    {% when 'release-prep' %}
+      {% assign label = 'Release-Vorbereitung' %}
+    {% when 'planned' %}
+      {% assign label = 'geplant' %}
+    {% when 'inquiry' %}
+      {% assign label = 'auf Anfrage' %}
+  {% endcase %}
+{% endif %}
+<span class="status-badge status-badge--{{ status | slugify }}">{{ label }}</span>

@@ -1,9 +1,10 @@
 ---
 title: Widerruf und Rückerstattung
-description: Widerrufs- und Rückerstattungsinformationen in Vorbereitung.
+description: Widerrufs-, Stornierungs- und Rückerstattungsinformationen für künftige Direktverkäufe.
 lang: de
 kicker: Rechtliches
 ---
 
-Entwurfsseite. Die finale Widerrufs- und Rückerstattungsinformation wird vor direkten Verkäufen ergänzt.
+Entwurfsseite für die Launch-Vorbereitung.
 
+Bevor direkte digitale Verkäufe live gehen, beschreibt diese Route Widerrufsrechte, Zustimmung zu digitalem Inhalt, Rückerstattungsabwicklung und Supportkontakt.

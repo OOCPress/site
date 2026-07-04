@@ -35,6 +35,6 @@ The main book now carries a complete 45-chapter spine across four parts: symptom
 
 ## Start Here
 
-- [Table of contents](/en/book/table-of-contents/)
-- [Sample pages and excerpts](/en/book/sample/)
-- [Buy and formats](/en/buy/)
+- [Table of contents]({{ '/en/book/table-of-contents/' | relative_url }})
+- [Sample pages and excerpts]({{ '/en/book/sample/' | relative_url }})
+- [Buy and formats]({{ '/en/buy/' | relative_url }})

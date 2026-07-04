@@ -25,4 +25,4 @@ This is the second edition's sharper 2026 argument: AI is not only a productivit
 
 Before automating a junior task, name what the task used to teach. The release-candidate manuscript proposes a simple starting artifact: source reality, human hypothesis, evidence comparison, tradeoff explanation, and accountable recommendation.
 
-[Explore the Formation Ladder](/en/frameworks/formation-ladder/)
+[Explore the Formation Ladder]({{ '/en/frameworks/formation-ladder/' | relative_url }})

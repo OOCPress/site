@@ -49,6 +49,11 @@
   align-items: start;
 }
 
+.section-grid > *,
+.card-grid > * {
+  min-width: 0;
+}
+
 .card-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

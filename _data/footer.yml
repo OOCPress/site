@@ -1,37 +1,81 @@
-columns:
-  - heading: Read
-    links:
-      - label: Book
-        url: /en/book/
-      - label: Table of Contents
-        url: /en/book/table-of-contents/
-      - label: Sample
-        url: /en/book/sample/
-  - heading: Use
-    links:
-      - label: Frameworks
-        url: /en/frameworks/
-      - label: Companion Library
-        url: /en/companion-library/
-      - label: Sources
-        url: /en/sources/
-  - heading: Contact
-    links:
-      - label: Press
-        url: /en/press/
-      - label: About
-        url: /en/about/
-      - label: contact@outofcontext.work
-        url: mailto:contact@outofcontext.work
-legal:
-  - label: Impressum
-    url: /en/legal/impressum/
-  - label: Privacy
-    url: /en/legal/privacy/
-  - label: Terms
-    url: /en/legal/terms/
-  - label: Withdrawal & Refunds
-    url: /en/legal/withdrawal-refunds/
-  - label: Accessibility
-    url: /en/legal/accessibility/
+en:
+  tagline: Book as spine. Frameworks as operating system. Companion library as workbench. Sources as trust layer.
+  copyright: Copyright 2026 Dr. Thorsten Fuchs and Anna-Sophie Fuchs.
+  legal_label: Legal
+  columns:
+    - heading: Read
+      links:
+        - label: Book
+          url: /en/book/
+        - label: Table of Contents
+          url: /en/book/table-of-contents/
+        - label: Sample
+          url: /en/book/sample/
+    - heading: Use
+      links:
+        - label: Frameworks
+          url: /en/frameworks/
+        - label: Companion Library
+          url: /en/companion-library/
+        - label: Sources
+          url: /en/sources/
+    - heading: Contact
+      links:
+        - label: Press
+          url: /en/press/
+        - label: About
+          url: /en/about/
+        - label: contact@outofcontext.work
+          url: mailto:contact@outofcontext.work
+  legal:
+    - label: Impressum
+      url: /en/legal/impressum/
+    - label: Privacy
+      url: /en/legal/privacy/
+    - label: Terms
+      url: /en/legal/terms/
+    - label: Withdrawal & Refunds
+      url: /en/legal/withdrawal-refunds/
+    - label: Accessibility
+      url: /en/legal/accessibility/
 
+de:
+  tagline: Buch als Wirbelsäule. Rahmenwerke als Betriebssystem. Begleitbibliothek als Werkbank. Quellen als Vertrauensschicht.
+  copyright: Copyright 2026 Dr. Thorsten Fuchs und Anna-Sophie Fuchs.
+  legal_label: Rechtliches
+  columns:
+    - heading: Lesen
+      links:
+        - label: Buch
+          url: /de/buch/
+        - label: Inhaltsverzeichnis
+          url: /de/buch/inhaltsverzeichnis/
+        - label: Leseprobe
+          url: /de/buch/leseprobe/
+    - heading: Anwenden
+      links:
+        - label: Rahmenwerke
+          url: /de/rahmenwerke/
+        - label: Begleitbibliothek
+          url: /de/begleitbibliothek/
+        - label: Quellen
+          url: /de/quellen/
+    - heading: Kontakt
+      links:
+        - label: Presse
+          url: /de/presse/
+        - label: Über
+          url: /de/ueber/
+        - label: contact@outofcontext.work
+          url: mailto:contact@outofcontext.work
+  legal:
+    - label: Impressum
+      url: /de/rechtliches/impressum/
+    - label: Datenschutz
+      url: /de/rechtliches/datenschutz/
+    - label: AGB
+      url: /de/rechtliches/agb/
+    - label: Widerruf & Rückerstattung
+      url: /de/rechtliches/widerruf-rueckerstattung/
+    - label: Barrierefreiheit
+      url: /de/rechtliches/barrierefreiheit/
