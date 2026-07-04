@@ -20,9 +20,10 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background: color-mix(in srgb, var(--color-paper), transparent 8%);
-  border-bottom: var(--hairline);
-  backdrop-filter: blur(18px);
+  background: var(--glass-paper);
+  border-bottom: var(--glass-border-paper);
+  backdrop-filter: blur(var(--glass-blur-md));
+  -webkit-backdrop-filter: blur(var(--glass-blur-md));
 }
 
 .site-header__inner {
@@ -350,9 +351,12 @@
 }
 
 .product-card--on-dark {
-  border-color: color-mix(in srgb, var(--color-white), transparent 82%);
-  background: color-mix(in srgb, var(--color-white), transparent 6%);
+  border: var(--glass-border-on-dark);
+  border-left: 4px solid var(--color-magenta);
+  background: var(--glass-surface-on-dark);
   color: var(--color-white);
+  backdrop-filter: blur(var(--glass-blur-sm));
+  -webkit-backdrop-filter: blur(var(--glass-blur-sm));
 }
 
 .product-card--on-dark h3,
@@ -556,17 +560,20 @@
 .search-panel__backdrop {
   position: absolute;
   inset: 0;
-  background: color-mix(in srgb, var(--color-ink), transparent 46%);
+  background: var(--glass-backdrop);
 }
 
 .search-panel__dialog {
   position: relative;
   width: min(44rem, calc(100% - 2rem));
   margin: var(--space-8) auto 0;
+  border: var(--glass-border-paper);
   border-radius: var(--radius-md);
-  background: var(--color-paper);
+  background: var(--glass-paper-strong);
   padding: var(--space-5);
   box-shadow: var(--shadow-hero);
+  backdrop-filter: blur(var(--glass-blur-md));
+  -webkit-backdrop-filter: blur(var(--glass-blur-md));
 }
 
 .search-panel__header {

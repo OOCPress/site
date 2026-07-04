@@ -119,6 +119,14 @@
   --color-field-mid: #071521;
   --color-field-register: #10115f;
   --color-brand-violet: #9b5cff;
+  --glass-paper: color-mix(in srgb, var(--color-paper) 88%, transparent);
+  --glass-paper-strong: color-mix(in srgb, var(--color-paper) 92%, transparent);
+  --glass-surface-on-dark: color-mix(in srgb, var(--color-white) 8%, transparent);
+  --glass-backdrop: color-mix(in srgb, var(--color-ink) 54%, transparent);
+  --glass-border-paper: 1px solid color-mix(in srgb, var(--color-ink) 12%, transparent);
+  --glass-border-on-dark: 1px solid color-mix(in srgb, var(--color-white) 18%, transparent);
+  --glass-blur-sm: 10px;
+  --glass-blur-md: 18px;
 
   --font-serif: "Source Serif 4", Georgia, serif;
   --font-display: "Archivo", system-ui, sans-serif;
