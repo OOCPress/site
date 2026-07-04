@@ -1,5 +1,6 @@
 <head>
   {% assign page_type = page.type | default: page.layout | default: 'website' %}
+  {% assign asset_version = site.time | date: '%s' %}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title and page.title != site.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
@@ -12,7 +13,7 @@
   <meta property="og:image" content="{{ page.image | default: '/assets/images/cover-og.png' | absolute_url }}">
   <meta name="theme-color" content="#091f2e">
   <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ asset_version }}">
   <script>
     window.OOC = { baseurl: "{{ site.baseurl }}" };
   </script>
