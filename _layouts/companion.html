@@ -5,20 +5,38 @@ layout: default
 {% if page_lang == 'de' %}
   {% assign companion_kicker = 'Begleitmaterial' %}
   {% assign version_label = 'Version' %}
+  {% assign status_heading = 'Status und Grenze' %}
+  {% assign formats_label = 'Formate' %}
+  {% assign chapters_label = 'Verwandte Kapitel' %}
+  {% assign boundary_label = 'Grenze' %}
+  {% assign action_fallback = 'Quellen und Updates öffnen' %}
   {% assign all_companions_label = 'Alle Begleitmaterialien' %}
   {% assign all_companions_url = '/de/begleitbibliothek/' %}
   {% assign sources_label = 'Quellen und Updates' %}
   {% assign sources_url = '/de/quellen/' %}
   {% assign nav_label = 'Begleitmaterial-Navigation' %}
+  {% assign companion_items = site.data.companions.items_de %}
 {% else %}
   {% assign companion_kicker = 'Companion' %}
   {% assign version_label = 'Version' %}
+  {% assign status_heading = 'Status and boundary' %}
+  {% assign formats_label = 'Formats' %}
+  {% assign chapters_label = 'Related chapters' %}
+  {% assign boundary_label = 'Boundary' %}
+  {% assign action_fallback = 'Open sources and updates' %}
   {% assign all_companions_label = 'All companions' %}
   {% assign all_companions_url = '/en/companion-library/' %}
   {% assign sources_label = 'Sources and updates' %}
   {% assign sources_url = '/en/sources/' %}
   {% assign nav_label = 'Companion navigation' %}
+  {% assign companion_items = site.data.companions.items %}
 {% endif %}
+{% assign companion_info = nil %}
+{% for item in companion_items %}
+  {% if item.title == page.title %}
+    {% assign companion_info = item %}
+  {% endif %}
+{% endfor %}
 <article class="page page--detail" data-pagefind-filter="type:Companion">
   <header class="page-header">
     <p class="kicker">{{ companion_kicker }}</p>
@@ -33,6 +51,24 @@ layout: default
   <div class="prose">
     {{ content }}
   </div>
+  {% if companion_info %}
+    <section class="detail-panel">
+      <h2>{{ status_heading }}</h2>
+      <ul class="download-list">
+        <li>
+          <span>{{ companion_info.formats }}</span>
+          <span>{% include status-badge.html status=companion_info.status %}</span>
+          <span>{{ version_label }} {{ companion_info.version }}</span>
+        </li>
+      </ul>
+      <dl class="card-meta-list">
+        <div><dt>{{ formats_label }}</dt><dd>{{ companion_info.formats }}</dd></div>
+        <div><dt>{{ chapters_label }}</dt><dd class="chapter-list">{{ companion_info.related_chapters }}</dd></div>
+        <div><dt>{{ boundary_label }}</dt><dd>{{ companion_info.risk_boundary }}</dd></div>
+      </dl>
+      <p class="section-action"><a class="button button--secondary" href="{{ sources_url | relative_url }}">{{ companion_info.action_label | default: action_fallback }}</a></p>
+    </section>
+  {% endif %}
   <nav class="detail-nav" aria-label="{{ nav_label }}">
     <a href="{{ all_companions_url | relative_url }}">{{ all_companions_label }}</a>
     <a href="{{ sources_url | relative_url }}">{{ sources_label }}</a>

@@ -53,16 +53,26 @@ lang: de
 </section>
 
 <section class="band band--ink">
-  <div class="section-grid">
-    <div>
-      <p class="kicker">Das Buch</p>
-      <h2>Ein hochwertiges Rekonstruktionshandbuch für Führung nach dem Kontextkollaps.</h2>
-    </div>
-    <div class="prose compact">
-      <p>Das Buch ist die Wirbelsäule: 45 Kapitel in vier Teilen, ein kompaktes, handlungsorientiertes Backmatter und klare Wege zu Companion-Papieren, Workbook und Quellenpfad.</p>
-      <p><a class="button button--light" href="{{ '/de/buch/' | relative_url }}">Mehr über das Buch</a></p>
-    </div>
+  <div class="section__header">
+    <p class="kicker">Buchformate</p>
+    <h2>Das Buch ist die Wirbelsäule. Formate sind Servicerouten darum herum.</h2>
+    <p>Print führt den Release; Digital, Audio, Bundles und Teamrouten bleiben sichtbar, ohne Checkout zu versprechen, bevor Rechte- und Fulfillment-Position final sind.</p>
   </div>
+  <div class="card-grid card-grid--products">
+    {% for item in site.data.products.items_de limit: 3 %}
+      <a class="product-card product-card--on-dark" href="{{ item.url | relative_url }}">
+        {% include status-badge.html status=item.status %}
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.summary }}</p>
+        <dl class="card-meta-list">
+          <div><dt>Enthält</dt><dd>{{ item.includes }}</dd></div>
+          <div><dt>Lieferung</dt><dd>{{ item.delivery }}</dd></div>
+        </dl>
+        <small>{{ item.legal_support }}</small>
+      </a>
+    {% endfor %}
+  </div>
+  <p class="section-action"><a class="button button--light" href="{{ '/de/kaufen/' | relative_url }}">Alle Formate ansehen</a></p>
 </section>
 
 <section class="section">
@@ -89,7 +99,11 @@ lang: de
         {% include status-badge.html status=item.status %}
         <h3>{{ item.title }}</h3>
         <p>{{ item.summary }}</p>
-        <small>{{ item.formats }} · {{ item.version }}</small>
+        <dl class="card-meta-list">
+          <div><dt>Kapitel</dt><dd>{{ item.related_chapters }}</dd></div>
+          <div><dt>Grenze</dt><dd>{{ item.risk_boundary }}</dd></div>
+        </dl>
+        <small>{{ item.formats }} · Version {{ item.version }} · {{ item.action_label }}</small>
       </a>
     {% endfor %}
   </div>
@@ -108,15 +122,31 @@ lang: de
   </div>
 </section>
 
-<section class="section section--closing">
+<section class="section section--closing cta-strip">
   <div class="section-grid">
     <div>
       <p class="kicker">Vertrauensschicht</p>
       <h2>Kreative Nonfiction, öffentliche Quellen, Autorenmodelle und spekulative Brücken werden sichtbar getrennt.</h2>
+      <p class="evidence-note">Die Website behandelt Evidenzkategorien, Companion-Versionen, volatile Quellenupdates und rechtliche/supportbezogene Seiten als eigene Leser-Infrastruktur.</p>
     </div>
     <div class="button-row">
       <a class="button button--primary" href="{{ '/de/quellen/' | relative_url }}">Quellen ansehen</a>
       <a class="button button--secondary" href="{{ '/de/presse/' | relative_url }}">Pressekit öffnen</a>
     </div>
+  </div>
+</section>
+
+<section class="band band--paper">
+  <div class="section-grid">
+    <a class="press-asset" href="{{ '/de/presse/' | relative_url }}">
+      <p class="kicker">Presse</p>
+      <h2>Kontextkollaps als öffentliche Debatte.</h2>
+      <p>{{ site.data.press.short_description_de }}</p>
+    </a>
+    <a class="press-asset" href="{{ '/de/ueber/' | relative_url }}">
+      <p class="kicker">Über</p>
+      <h2>Autorinnen, Autoren und Forschungsökosystem.</h2>
+      <p>Thorsten Fuchs und Anna-Sophie Fuchs verbinden Organisationsarbeit, KI, Handwerk, erwachsene Formation und den Panta-Rhei-Forschungspfad.</p>
+    </a>
   </div>
 </section>

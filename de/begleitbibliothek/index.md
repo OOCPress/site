@@ -19,7 +19,12 @@ Das Hauptbuch trägt das Argument. Die Begleitbibliothek trägt die Arbeitsmater
     {% include status-badge.html status=item.status %}
     <h2>{{ item.title }}</h2>
     <p>{{ item.summary }}</p>
-    <small>{{ item.formats }} · Version {{ item.version }}</small>
+    <dl class="card-meta-list">
+      <div><dt>Zweck</dt><dd>{{ item.audience }}</dd></div>
+      <div><dt>Verwandte Kapitel</dt><dd>{{ item.related_chapters }}</dd></div>
+      <div><dt>Grenze</dt><dd>{{ item.risk_boundary }}</dd></div>
+    </dl>
+    <small>{{ item.formats }} · Version {{ item.version }} · {{ item.action_label }}</small>
   </a>
 {% endfor %}
 </div>

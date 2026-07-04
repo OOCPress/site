@@ -7,13 +7,17 @@ kicker: Storefront
 Amazon will remain one channel. This site is the canonical home for formats, companion access, updates, and direct digital routes once active.
 
 <div class="card-grid">
-{% assign products = site.products | sort: 'order' %}
-{% for item in products %}
+{% for item in site.data.products.items %}
   <a class="product-card" href="{{ item.url | relative_url }}">
     {% include status-badge.html status=item.status %}
     <h2>{{ item.title }}</h2>
-    <p>{{ item.subtitle }}</p>
-    <small>Delivery, price, and release details will be finalized before launch.</small>
+    <p>{{ item.summary }}</p>
+    <dl class="card-meta-list">
+      <div><dt>Included</dt><dd>{{ item.includes }}</dd></div>
+      <div><dt>Delivery</dt><dd>{{ item.delivery }}</dd></div>
+      <div><dt>Support</dt><dd>{{ item.legal_support }}</dd></div>
+    </dl>
+    <small>{{ item.accessibility }}</small>
   </a>
 {% endfor %}
 </div>

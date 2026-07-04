@@ -27,9 +27,11 @@
 
     <div class="utility-nav" aria-label="{{ nav.utility_label }}">
       <button class="utility-nav__button" type="button" data-search-open>{{ nav.search_label }}</button>
-      {% for item in nav.languages %}
-        <a class="utility-nav__link" href="{{ item.url | relative_url }}">{{ item.label }}</a>
-      {% endfor %}
+      <span class="language-switcher" aria-label="{{ nav.language_label }}">
+        {% for item in nav.languages %}
+          <a class="utility-nav__link" href="{{ item.url | relative_url }}">{{ item.label }}</a>
+        {% endfor %}
+      </span>
     </div>
   </div>
 </header>

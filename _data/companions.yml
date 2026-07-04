@@ -6,6 +6,9 @@ items:
     formats: PDF, printable worksheets
     audience: Readers and teams
     summary: Monday Morning actions, reflection prompts, and leadership-team practice paths.
+    related_chapters: Operational Clarity; Conflict Infrastructure; Four Hours or Forty
+    risk_boundary: Practice prompts, not consulting advice or a one-size-fits-all transformation program.
+    action_label: View release status
   - title: Research and Source Compendium
     url: /en/companion-library/research-source-compendium/
     status: coming-with-release
@@ -13,6 +16,9 @@ items:
     formats: PDF, HTML source register
     audience: Researchers and reviewers
     summary: Chapter source notes, evidence boundaries, volatile-data updates, and extended bibliography.
+    related_chapters: All chapters; Sources and Research Digest
+    risk_boundary: Source trail and evidence boundary, not a claim that every narrative scene is empirical data.
+    action_label: Track source updates
   - title: Appendix Supplement
     url: /en/companion-library/appendix-supplement/
     status: coming-with-release
@@ -20,6 +26,9 @@ items:
     formats: PDF
     audience: Deep readers
     summary: The companion appendix package containing the formal, tooling, and accountability essays.
+    related_chapters: Appendix routes; Panta Rhei bridge; companion papers
+    risk_boundary: Deepening material, not required reading for the main argument.
+    action_label: View supplement status
   - title: The Foundation Stack
     url: /en/companion-library/foundation-stack/
     status: in-preparation
@@ -27,6 +36,9 @@ items:
     formats: PDF, Markdown field kit
     audience: Practitioners
     summary: A guide to text, version control, automation, and AI infrastructure.
+    related_chapters: Dancing with Intelligence; The Missing Rung; Operational Clarity
+    risk_boundary: Capability stack, not a procurement mandate or platform endorsement.
+    action_label: Follow field-kit updates
   - title: The Functor Lens
     url: /en/companion-library/functor-lens/
     status: in-preparation
@@ -34,6 +46,9 @@ items:
     formats: PDF, Markdown field packet
     audience: Formal-model readers
     summary: A bridge companion to context, containers, meaning, and the Panta Rhei series.
+    related_chapters: Meaning Collapse; Four Rings of Context; Panta Rhei bridge
+    risk_boundary: Formal lens and translation discipline, not mathematical proof of an organizational design.
+    action_label: Follow bridge updates
   - title: Pricing Promises
     url: /en/companion-library/pricing-promises/
     status: in-preparation
@@ -41,6 +56,9 @@ items:
     formats: PDF, review templates
     audience: Boards and researchers
     summary: A no-money paper-market companion on pricing targets, forecasts, and executive promises.
+    related_chapters: Performance Options; The Weight of Inheritance; True Transformations
+    risk_boundary: Not legal, financial, tax, accounting, securities, commodities, or compensation advice.
+    action_label: Follow review-template updates
 items_de:
   - title: Praxis-Workbook
     url: /de/begleitbibliothek/praxis-workbook/
@@ -49,6 +67,9 @@ items_de:
     formats: PDF, druckbare Arbeitsblätter
     audience: Leserinnen, Leser und Teams
     summary: Monday-Morning-Aktionen, Reflexionsfragen und Praxispfade für Führungsteams.
+    related_chapters: Operational Clarity; Conflict Infrastructure; Four Hours or Forty
+    risk_boundary: Praxisimpulse, keine Beratungsleistung und kein universelles Transformationsprogramm.
+    action_label: Release-Status ansehen
   - title: Forschungs- und Quellenkompendium
     url: /de/begleitbibliothek/quellenkompendium/
     status: coming-with-release
@@ -56,6 +77,9 @@ items_de:
     formats: PDF, HTML-Quellenregister
     audience: Forschende und Reviewer
     summary: Kapitel-Quellennotizen, Evidenzgrenzen, volatile Datenupdates und erweiterte Bibliografie.
+    related_chapters: Alle Kapitel; Sources and Research Digest
+    risk_boundary: Quellenpfad und Evidenzgrenze, keine Behauptung, dass jede narrative Szene empirische Primärdaten enthält.
+    action_label: Quellenupdates verfolgen
   - title: Appendix-Supplement
     url: /de/begleitbibliothek/appendix-supplement/
     status: coming-with-release
@@ -63,6 +87,9 @@ items_de:
     formats: PDF
     audience: vertiefende Leserinnen und Leser
     summary: Das ausgelagerte Appendix-Paket mit formalen, technischen und accountability-bezogenen Essays.
+    related_chapters: Appendix-Routen; Panta-Rhei-Brücke; Companion-Papiere
+    risk_boundary: Vertiefungsmaterial, keine Voraussetzung für das Hauptargument.
+    action_label: Supplement-Status ansehen
   - title: Der Foundation Stack
     url: /de/begleitbibliothek/foundation-stack/
     status: in-preparation
@@ -70,6 +97,9 @@ items_de:
     formats: PDF, Markdown-Field-Kit
     audience: Praktikerinnen und Praktiker
     summary: Ein Leitfaden für Text, Versionskontrolle, Automatisierung und KI-Infrastruktur.
+    related_chapters: Dancing with Intelligence; The Missing Rung; Operational Clarity
+    risk_boundary: Capability Stack, keine Beschaffungsvorgabe und keine Plattformempfehlung.
+    action_label: Field-Kit-Updates verfolgen
   - title: Die Functor Lens
     url: /de/begleitbibliothek/functor-lens/
     status: in-preparation
@@ -77,6 +107,9 @@ items_de:
     formats: PDF, Markdown-Field-Packet
     audience: Leserinnen und Leser formaler Modelle
     summary: Eine Brücke zu Kontext, Containern, Bedeutung und der Panta-Rhei-Reihe.
+    related_chapters: Meaning Collapse; Four Rings of Context; Panta-Rhei-Brücke
+    risk_boundary: Formale Linse und Übersetzungsdisziplin, kein mathematischer Beweis für ein Organisationsdesign.
+    action_label: Brücken-Updates verfolgen
   - title: Pricing Promises
     url: /de/begleitbibliothek/pricing-promises/
     status: in-preparation
@@ -84,3 +117,6 @@ items_de:
     formats: PDF, Review-Vorlagen
     audience: Boards und Forschende
     summary: Ein No-Money-Paper-Market-Companion zu Preiszielen, Forecasts und Versprechen von Führung.
+    related_chapters: Performance Options; The Weight of Inheritance; True Transformations
+    risk_boundary: Keine Rechts-, Finanz-, Steuer-, Buchhaltungs-, Wertpapier-, Rohstoff- oder Vergütungsberatung.
+    action_label: Review-Vorlagen-Updates verfolgen

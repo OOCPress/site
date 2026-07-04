@@ -13,7 +13,12 @@ Amazon bleibt ein Kanal. Diese Website ist der kanonische Ort für Formate, Comp
     {% include status-badge.html status=item.status %}
     <h2>{{ item.title }}</h2>
     <p>{{ item.summary }}</p>
-    <small>Lieferung, Preis und Release-Details werden vor Launch finalisiert.</small>
+    <dl class="card-meta-list">
+      <div><dt>Enthalten</dt><dd>{{ item.includes }}</dd></div>
+      <div><dt>Lieferung</dt><dd>{{ item.delivery }}</dd></div>
+      <div><dt>Support</dt><dd>{{ item.legal_support }}</dd></div>
+    </dl>
+    <small>{{ item.accessibility }}</small>
   </a>
 {% endfor %}
 </div>

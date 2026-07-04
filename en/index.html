@@ -53,16 +53,26 @@ lang: en
 </section>
 
 <section class="band band--ink">
-  <div class="section-grid">
-    <div>
-      <p class="kicker">The Book</p>
-      <h2>A premium reconstruction manual for leaders after context collapse.</h2>
-    </div>
-    <div class="prose compact">
-      <p>The book is the spine: 45 chapters across four parts, a compact action-oriented backmatter, and companion routes for the deeper appendices, workbook, and source trail.</p>
-      <p><a class="button button--light" href="{{ '/en/book/' | relative_url }}">Read about the book</a></p>
-    </div>
+  <div class="section__header">
+    <p class="kicker">Book Formats</p>
+    <h2>The book is the spine. Formats are service routes around it.</h2>
+    <p>Print leads the release; digital, audio, bundles, and team routes stay visible without pretending checkout is live before the rights and fulfillment posture is final.</p>
   </div>
+  <div class="card-grid card-grid--products">
+    {% for item in site.data.products.items limit: 3 %}
+      <a class="product-card product-card--on-dark" href="{{ item.url | relative_url }}">
+        {% include status-badge.html status=item.status %}
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.summary }}</p>
+        <dl class="card-meta-list">
+          <div><dt>Includes</dt><dd>{{ item.includes }}</dd></div>
+          <div><dt>Delivery</dt><dd>{{ item.delivery }}</dd></div>
+        </dl>
+        <small>{{ item.legal_support }}</small>
+      </a>
+    {% endfor %}
+  </div>
+  <p class="section-action"><a class="button button--light" href="{{ '/en/buy/' | relative_url }}">View all formats</a></p>
 </section>
 
 <section class="section">
@@ -89,7 +99,11 @@ lang: en
         {% include status-badge.html status=item.status %}
         <h3>{{ item.title }}</h3>
         <p>{{ item.summary }}</p>
-        <small>{{ item.formats }} · {{ item.version }}</small>
+        <dl class="card-meta-list">
+          <div><dt>Chapters</dt><dd>{{ item.related_chapters }}</dd></div>
+          <div><dt>Boundary</dt><dd>{{ item.risk_boundary }}</dd></div>
+        </dl>
+        <small>{{ item.formats }} · Version {{ item.version }} · {{ item.action_label }}</small>
       </a>
     {% endfor %}
   </div>
@@ -108,15 +122,31 @@ lang: en
   </div>
 </section>
 
-<section class="section section--closing">
+<section class="section section--closing cta-strip">
   <div class="section-grid">
     <div>
       <p class="kicker">Trust Layer</p>
       <h2>Creative nonfiction, public sources, author models, and speculative bridges are kept visibly separate.</h2>
+      <p class="evidence-note">The site routes evidence categories, companion versions, volatile source updates, and legal/support pages as first-class reader infrastructure.</p>
     </div>
     <div class="button-row">
       <a class="button button--primary" href="{{ '/en/sources/' | relative_url }}">View Sources</a>
       <a class="button button--secondary" href="{{ '/en/press/' | relative_url }}">Open Press Kit</a>
     </div>
+  </div>
+</section>
+
+<section class="band band--paper">
+  <div class="section-grid">
+    <a class="press-asset" href="{{ '/en/press/' | relative_url }}">
+      <p class="kicker">Press</p>
+      <h2>Context collapse as a public conversation.</h2>
+      <p>{{ site.data.press.short_description }}</p>
+    </a>
+    <a class="press-asset" href="{{ '/en/about/' | relative_url }}">
+      <p class="kicker">About</p>
+      <h2>The authors and the research ecosystem.</h2>
+      <p>Thorsten Fuchs and Anna-Sophie Fuchs connect organization work, AI, craft, adult formation, and the Panta Rhei research trail.</p>
+    </a>
   </div>
 </section>

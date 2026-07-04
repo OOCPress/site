@@ -60,6 +60,7 @@ async function runSearch(query, resultsNode) {
   resultsNode.innerHTML = results.map((result) => `
     <article class="search-result">
       <a href="${result.url}">${escapeHtml(result.meta.title || result.url)}</a>
+      <small>${[result.filters?.type?.[0], result.meta.status, result.url].filter(Boolean).map(escapeHtml).join(" · ")}</small>
       <p>${result.excerpt || ""}</p>
     </article>
   `).join("");

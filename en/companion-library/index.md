@@ -13,13 +13,17 @@ The main book carries the argument. The companion library carries the working ma
 </div>
 
 <div class="card-grid">
-{% assign companions = site.companions | sort: 'order' %}
-{% for item in companions %}
+{% for item in site.data.companions.items %}
   <a class="companion-card" href="{{ item.url | relative_url }}" data-filter-item="{{ item.status }}">
     {% include status-badge.html status=item.status %}
     <h2>{{ item.title }}</h2>
-    <p>{{ item.subtitle }}</p>
-    <small>{{ item.formats | join: ', ' }} · Version {{ item.version }}</small>
+    <p>{{ item.summary }}</p>
+    <dl class="card-meta-list">
+      <div><dt>Purpose</dt><dd>{{ item.audience }}</dd></div>
+      <div><dt>Related chapters</dt><dd>{{ item.related_chapters }}</dd></div>
+      <div><dt>Boundary</dt><dd>{{ item.risk_boundary }}</dd></div>
+    </dl>
+    <small>{{ item.formats }} · Version {{ item.version }} · {{ item.action_label }}</small>
   </a>
 {% endfor %}
 </div>

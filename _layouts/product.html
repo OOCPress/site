@@ -4,19 +4,37 @@ layout: default
 {% assign page_lang = page.lang | default: site.lang %}
 {% if page_lang == 'de' %}
   {% assign product_kicker = 'Format' %}
+  {% assign details_heading = 'Formatdetails' %}
+  {% assign included_label = 'Enthalten' %}
+  {% assign delivery_label = 'Lieferung' %}
+  {% assign accessibility_label = 'Barrierefreiheit' %}
+  {% assign support_label = 'Recht und Support' %}
   {% assign all_formats_label = 'Alle Formate' %}
   {% assign all_formats_url = '/de/kaufen/' %}
   {% assign refunds_label = 'Widerruf und Rückerstattung' %}
   {% assign refunds_url = '/de/rechtliches/widerruf-rueckerstattung/' %}
   {% assign nav_label = 'Format-Navigation' %}
+  {% assign product_items = site.data.products.items_de %}
 {% else %}
   {% assign product_kicker = 'Format' %}
+  {% assign details_heading = 'Format details' %}
+  {% assign included_label = 'Included' %}
+  {% assign delivery_label = 'Delivery' %}
+  {% assign accessibility_label = 'Accessibility' %}
+  {% assign support_label = 'Legal and support' %}
   {% assign all_formats_label = 'All formats' %}
   {% assign all_formats_url = '/en/buy/' %}
   {% assign refunds_label = 'Withdrawal and refunds' %}
   {% assign refunds_url = '/en/legal/withdrawal-refunds/' %}
   {% assign nav_label = 'Product navigation' %}
+  {% assign product_items = site.data.products.items %}
 {% endif %}
+{% assign product_info = nil %}
+{% for item in product_items %}
+  {% if item.title == page.title %}
+    {% assign product_info = item %}
+  {% endif %}
+{% endfor %}
 <article class="page page--detail" data-pagefind-filter="type:Product">
   <header class="page-header">
     <p class="kicker">{{ product_kicker }}</p>
@@ -27,6 +45,18 @@ layout: default
   <div class="prose">
     {{ content }}
   </div>
+  {% if product_info %}
+    <section class="detail-panel">
+      <h2>{{ details_heading }}</h2>
+      <dl class="card-meta-list">
+        <div><dt>{{ included_label }}</dt><dd>{{ product_info.includes }}</dd></div>
+        <div><dt>{{ delivery_label }}</dt><dd>{{ product_info.delivery }}</dd></div>
+        <div><dt>{{ accessibility_label }}</dt><dd>{{ product_info.accessibility }}</dd></div>
+        <div><dt>{{ support_label }}</dt><dd>{{ product_info.legal_support }}</dd></div>
+      </dl>
+      <p class="section-action"><a class="button button--secondary" href="{{ refunds_url | relative_url }}">{{ refunds_label }}</a></p>
+    </section>
+  {% endif %}
   <nav class="detail-nav" aria-label="{{ nav_label }}">
     <a href="{{ all_formats_url | relative_url }}">{{ all_formats_label }}</a>
     <a href="{{ refunds_url | relative_url }}">{{ refunds_label }}</a>

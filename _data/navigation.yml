@@ -4,6 +4,7 @@ en:
   menu_label: Menu
   primary_label: Primary
   utility_label: Utility
+  language_label: Language
   search_label: Search
   primary:
     - label: Book
@@ -33,6 +34,7 @@ de:
   menu_label: Menü
   primary_label: Hauptnavigation
   utility_label: Zusatznavigation
+  language_label: Sprache
   search_label: Suche
   primary:
     - label: Buch
