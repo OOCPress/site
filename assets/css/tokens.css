@@ -131,7 +131,13 @@
   --color-field-mid: #071521;
   --color-field-register: #10115f;
   --color-brand-violet: #9b5cff;
-  --glass-paper: color-mix(in srgb, var(--color-paper) 88%, transparent);
+  --glass-header:
+    linear-gradient(120deg,
+      color-mix(in srgb, var(--color-magenta) 20%, transparent),
+      color-mix(in srgb, var(--color-brand-violet) 14%, transparent) 45%,
+      color-mix(in srgb, var(--color-blue) 18%, transparent) 100%),
+    color-mix(in srgb, var(--color-paper) 48%, transparent);
+  --glass-header-highlight: inset 0 1px 0 color-mix(in srgb, var(--color-white) 60%, transparent);
   --glass-paper-strong: color-mix(in srgb, var(--color-paper) 92%, transparent);
   --glass-surface-on-dark: color-mix(in srgb, var(--color-white) 8%, transparent);
   --glass-backdrop: color-mix(in srgb, var(--color-ink) 54%, transparent);
