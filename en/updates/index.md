@@ -8,8 +8,8 @@ This page will carry the public version log for the book, companion library, sou
 
 ## Current Status
 
-- Main book: second-edition release preparation.
-- Companion library: package routes scaffolded.
-- Direct digital sales: planned, rights posture to be finalized.
-- German translation: in preparation.
+- Main book: second edition in preparation for publication.
+- Companion library: three of six companions available now, the rest in preparation.
+- Direct digital sales: planned, pending a confirmed store and checkout.
+- German translation: complete; the German site is fully localized.
 

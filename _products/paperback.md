@@ -8,5 +8,5 @@ status: release-prep
 
 The paperback route is planned for readers and teams who want a more portable print format.
 
-Retail links will be added after release metadata is final.
+Availability, ISBN, price, and retailer links will be added once the book has a confirmed publication date.
 

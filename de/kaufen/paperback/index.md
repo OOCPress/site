@@ -9,4 +9,4 @@ status: release-prep
 
 Die Paperback-Route ist für Leserinnen, Leser und Teams geplant, die ein mobileres Printformat wollen.
 
-Händlerlinks werden ergänzt, sobald die Release-Metadaten final sind.
+Verfügbarkeit, ISBN, Preis und Händlerlinks werden ergänzt, sobald ein bestätigtes Erscheinungsdatum feststeht.

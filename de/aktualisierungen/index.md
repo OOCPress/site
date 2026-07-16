@@ -1,6 +1,6 @@
 ---
 title: Aktualisierungen
-description: Release Notes, Quellenupdates, Companion-Versionen, Errata und Übersetzungsstatus.
+description: Versionshinweise, Quellenupdates, Companion-Versionen, Errata und Übersetzungsstatus.
 lang: de
 kicker: Versionierung
 ---
@@ -9,7 +9,7 @@ Diese Seite trägt das öffentliche Versionslog für Buch, Begleitbibliothek, Qu
 
 ## Aktueller Status
 
-- Hauptbuch: Vorbereitung der zweiten Ausgabe.
-- Begleitbibliothek: deutsche Routen und Paketstruktur angelegt.
-- Direkte digitale Verkäufe: geplant; Rechte- und Commerce-Position werden finalisiert.
-- Deutsche Website: erste vollständige öffentliche Übersetzung umgesetzt.
+- Hauptbuch: zweite Ausgabe in Vorbereitung der Veröffentlichung.
+- Begleitbibliothek: drei von sechs Companions jetzt verfügbar, die übrigen in Vorbereitung.
+- Direkte digitale Verkäufe: geplant, sobald Shop und Checkout bereit sind.
+- Deutsche Übersetzung: vollständig; die Website ist vollständig lokalisiert.
