@@ -3,8 +3,8 @@ items:
     url: /en/buy/hardcover/
     status: release-prep
     summary: Premium print edition for readers who want the physical spine.
-    includes: Release-candidate main book, compact backmatter, companion-route access
-    delivery: Retail print route after release metadata is final.
+    includes: Finished 45-chapter main book, compact backmatter, companion-route access
+    delivery: Retail print route once the book has a confirmed publication date.
     legal_support: Withdrawal/refund and accessibility routes linked from every format page.
     accessibility: Print-first reading object; companion routes support digital reference.
   - title: Paperback
@@ -12,7 +12,7 @@ items:
     status: release-prep
     summary: Lighter print edition for everyday reading and team circulation.
     includes: Main book, companion-route access
-    delivery: Retail print route after release metadata is final.
+    delivery: Retail print route once the book has a confirmed publication date.
     legal_support: Withdrawal/refund and accessibility routes linked from every format page.
     accessibility: Portable print object for individual and team circulation.
   - title: EPUB / PDF
@@ -20,7 +20,7 @@ items:
     status: planned
     summary: Direct digital edition, planned outside KDP Select exclusivity.
     includes: EPUB/PDF, updates, companion-route access
-    delivery: Direct digital route once rights posture and checkout provider are finalized.
+    delivery: Direct digital route once the store and checkout are ready.
     legal_support: Digital-content consent, refund, support, and accessibility notes before checkout goes live.
     accessibility: EPUB should include semantic navigation, alt text, and accessible metadata.
   - title: Audiobook
@@ -36,7 +36,7 @@ items:
     status: planned
     summary: Reader bundle for book plus digital formats and companion materials.
     includes: Format mix to be decided before launch
-    delivery: Bundle composition and fulfillment route to be finalized before sale.
+    delivery: Bundle composition and delivery route to be finalized before sale.
     legal_support: Bundle terms, refund handling, and support route required before checkout.
     accessibility: Bundle should preserve accessible digital-file options where available.
   - title: Team Orders
@@ -44,7 +44,7 @@ items:
     status: inquiry
     summary: Bulk and leadership-team routes for organizations.
     includes: Team reading path, companion library, optional workshop inquiry
-    delivery: Inquiry-led route through contact@outofcontext.work until bulk fulfillment is active.
+    delivery: Inquiry-led route through contact@outofcontext.work until team ordering is active.
     legal_support: Commercial terms and support handled before any invoice or checkout flow.
     accessibility: Team materials should remain usable in print and digital reference paths.
 items_de:
@@ -52,8 +52,8 @@ items_de:
     url: /de/kaufen/hardcover/
     status: release-prep
     summary: Premium-Printausgabe für Leserinnen und Leser, die die physische Wirbelsäule wollen.
-    includes: Hauptbuch im Release-Kandidaten, kompaktes Backmatter, Zugang zur Begleitbibliothek
-    delivery: Retail-Print-Route, sobald Release-Metadaten final sind.
+    includes: Vollständiges 45-Kapitel-Hauptbuch, kompaktes Backmatter, Zugang zur Begleitbibliothek
+    delivery: Retail-Print-Route, sobald ein bestätigtes Erscheinungsdatum feststeht.
     legal_support: Widerrufs-/Rückerstattungs- und Barrierefreiheitsrouten sind von jeder Formatseite erreichbar.
     accessibility: Printobjekt als primäre Lektüre; Companion-Routen stützen digitale Referenz.
   - title: Paperback
@@ -61,7 +61,7 @@ items_de:
     status: release-prep
     summary: Leichtere Printausgabe für Alltag, Umlauf und Teamlektüre.
     includes: Hauptbuch, Zugang zur Begleitbibliothek
-    delivery: Retail-Print-Route, sobald Release-Metadaten final sind.
+    delivery: Retail-Print-Route, sobald ein bestätigtes Erscheinungsdatum feststeht.
     legal_support: Widerrufs-/Rückerstattungs- und Barrierefreiheitsrouten sind von jeder Formatseite erreichbar.
     accessibility: Tragbares Printobjekt für Einzel- und Teamlektüre.
   - title: EPUB / PDF
@@ -69,7 +69,7 @@ items_de:
     status: planned
     summary: Direkte digitale Ausgabe, geplant außerhalb digitaler KDP-Select-Exklusivität.
     includes: EPUB/PDF, Updates, Zugang zur Begleitbibliothek
-    delivery: Direkte digitale Route, sobald Rechteposition und Checkout-Anbieter final sind.
+    delivery: Direkte digitale Route, sobald Shop und Checkout bereit sind.
     legal_support: Zustimmung zu digitalen Inhalten, Rückerstattung, Support und Barrierefreiheit vor Checkout.
     accessibility: EPUB mit semantischer Navigation, Alt-Texten und zugänglichen Metadaten.
   - title: Hörbuch
@@ -85,7 +85,7 @@ items_de:
     status: planned
     summary: Leserbundle für Buch, digitale Formate und Begleitmaterial.
     includes: Formatmix wird vor Launch festgelegt
-    delivery: Bundle-Zuschnitt und Fulfillment-Route werden vor Verkauf finalisiert.
+    delivery: Bundle-Zuschnitt und Lieferroute werden vor Verkauf finalisiert.
     legal_support: Bundle-Bedingungen, Rückerstattung und Supportroute vor Checkout erforderlich.
     accessibility: Bundle sollte zugängliche digitale Dateioptionen erhalten, wo verfügbar.
   - title: Team-Bestellungen
@@ -93,6 +93,6 @@ items_de:
     status: inquiry
     summary: Mengen- und Führungsteamrouten für Organisationen.
     includes: Team-Lesepfad, Begleitbibliothek, optionale Workshop-Anfrage
-    delivery: Anfragebasierte Route über contact@outofcontext.work, bis Bulk-Fulfillment aktiv ist.
+    delivery: Anfragebasierte Route über contact@outofcontext.work, bis Team-Bestellungen aktiv sind.
     legal_support: Kommerzielle Bedingungen und Support werden vor Rechnung oder Checkout geklärt.
     accessibility: Teammaterial sollte in Print- und digitalen Referenzpfaden nutzbar bleiben.

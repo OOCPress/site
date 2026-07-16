@@ -28,8 +28,20 @@
     <div class="utility-nav" aria-label="{{ nav.utility_label }}">
       <button class="utility-nav__button" type="button" data-search-open>{{ nav.search_label }}</button>
       <span class="language-switcher" aria-label="{{ nav.language_label }}">
+        {% assign translation_pair = nil %}
+        {% for pair in site.data.page_translations %}
+          {% if pair.en == page.url or pair.de == page.url %}
+            {% assign translation_pair = pair %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
         {% for item in nav.languages %}
-          <a class="utility-nav__link" href="{{ item.url | relative_url }}">{{ item.label }}</a>
+          {% assign target_url = item.url %}
+          {% if translation_pair %}
+            {% if item.label == 'EN' %}{% assign target_url = translation_pair.en %}{% endif %}
+            {% if item.label == 'DE' %}{% assign target_url = translation_pair.de %}{% endif %}
+          {% endif %}
+          <a class="utility-nav__link" href="{{ target_url | relative_url }}">{{ item.label }}</a>
         {% endfor %}
       </span>
     </div>

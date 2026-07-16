@@ -1,6 +1,6 @@
 ---
 title: Inhaltsverzeichnis
-description: Die Hardcover-Route des Release Candidate enthält 45 Kapitel in vier Teilen plus Prolog, Epilog und kompaktes Backmatter.
+description: Die Hardcover-Ausgabe enthält 45 Kapitel in vier Teilen plus Prolog, Epilog und kompaktes Backmatter.
 lang: de
 kicker: Buch
 ---
@@ -9,67 +9,67 @@ kicker: Buch
 
 Prolog - Zehn Jahre Out of Office
 
-## Teil I: The Beautiful Wreckage
+## Teil I: Die schönen Trümmer
 
-1. The Company That Implemented Everything
-2. The Collaboration Catastrophe
-3. The Infinite Iteration
-4. The Data Delusion
-5. The Engagement Entrapment
-6. The Purpose Parade
-7. Language Compression
-8. Title Inflation
-9. The Trust Theater
-10. The Deskilling Disaster
-11. The Clarity Confrontation
-12. The Pattern in the Wreckage
+1. Das Unternehmen, das alles implementierte
+2. Die Kooperationskatastrophe
+3. Die endlose Iteration
+4. Der Datenwahn
+5. Die Engagement-Falle
+6. Die Sinnparade
+7. Sprachkompression
+8. Titelinflation
+9. Das Vertrauenstheater
+10. Die Entkönnungs-Katastrophe
+11. Die Klarheitskonfrontation
+12. Das Muster in den Trümmern
 
-## Teil II: Context Collapse
+## Teil II: Kontextkollaps
 
-13. The Beautiful Lie
-14. Value Creation Collapse
-15. Narrative Collapse
-16. Temporal Collapse
-17. People Collapse
-18. Structural Collapse
-19. Knowledge Collapse
-20. Meaning Collapse
-21. Decency Collapse
-22. Resilience Collapse
-23. Innovation Collapse, Part I
-24. Innovation Collapse, Part II
-25. The House We Never Leave
-26. The Walls Still Standing
+13. Die schöne Lüge
+14. Kollaps der Wertschöpfung
+15. Narrativkollaps
+16. Zeitkollaps
+17. Menschenkollaps
+18. Strukturkollaps
+19. Wissenskollaps
+20. Sinnkollaps
+21. Anstandskollaps
+22. Resilienzkollaps
+23. Innovationskollaps, Teil I
+24. Innovationskollaps, Teil II
+25. Das Haus, das wir nie verlassen
+26. Was noch steht
 
-## Teil III: Crafting With Context
+## Teil III: Kontext gestalten
 
-27. Operational Clarity
-28. The Craft Renaissance
-29. Dancing with Intelligence
-30. Kronos and Kairos
-31. Healthy Hierarchies and Leadership
-32. Conflict Infrastructure
-33. The Return of the Master Generalist
-34. The Four People Functions
-35. True Transformations
-36. Performance Options
-37. The Weight of Inheritance
-38. On the Threshold
+27. Operative Klarheit
+28. Renaissance der Könnerschaft
+29. Mit Intelligenz tanzen
+30. Chronos und Kairos
+31. Gesunde Hierarchien und Führung
+32. Konfliktinfrastruktur
+33. Die Rückkehr der Meistergeneralisten
+34. Die vier People-Funktionen
+35. Echte Transformationen
+36. Performance-Optionen
+37. Das Gewicht des Erbes
+38. An der Schwelle
 
-## Teil IV: The Adults in the House
+## Teil IV: Die Erwachsenen im Haus
 
-39. The View from Here
-40. Work Is Work
-41. Mirrors and Habits
-42. The Broken Adult Contract
-43. The Missing Rung
-44. Institutions That Grow Adults
-45. Four Hours or Forty
+39. Der Blick von hier
+40. Arbeit ist Arbeit
+41. Spiegel und Gewohnheiten
+42. Der gebrochene Erwachsenenvertrag
+43. Die fehlende Sprosse
+44. Institutionen, die Erwachsene bilden
+45. Vier Stunden oder vierzig
 
 ## Epilog
 
-Epilog - The Last Tuesday Morning
+Epilog - Der letzte Dienstagmorgen
 
 ## Backmatter
 
-Monday Morning Action Index; Klaus's Wisdom Index; Core Glossary; Sources and Research Digest; Essential Bibliography; Questions for Reflection.
+Montagmorgen-Aktionsindex; Klaus-Weisheitsindex; Kern-Glossar; Quellen- und Forschungsdigest; Wesentliche Bibliografie; Fragen zur Reflexion.

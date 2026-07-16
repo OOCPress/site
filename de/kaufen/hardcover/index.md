@@ -9,6 +9,6 @@ status: release-prep
 
 Das Hardcover ist das primäre Printobjekt der zweiten Ausgabe.
 
-Die Hardcover-Route des Release Candidate trägt das vollständige 45-Kapitel-Hauptbuch, kompaktes praktisches Backmatter und Zugang zur Begleitbibliothek.
+Das fertige Hardcover trägt das vollständige 45-Kapitel-Hauptbuch, kompaktes praktisches Backmatter und Zugang zur Begleitbibliothek.
 
-Verfügbarkeit, ISBN, Preis, Seitenzahl und Händlerlinks werden ergänzt, sobald die finalen Release-Metadaten vergeben sind.
+Verfügbarkeit, ISBN, Preis und Händlerlinks werden ergänzt, sobald ein bestätigtes Erscheinungsdatum feststeht.

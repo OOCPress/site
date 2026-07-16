@@ -6,7 +6,7 @@ kicker: Read
 
 *Out of Context* is a second-edition theory and operating manual for leaders, operators, and serious readers trying to understand why modern work became noisy, brittle, performative, and hard to govern.
 
-The release-candidate manuscript positions context collapse as the diagnosis and formation after context collapse as the work. It is not anti-remote, anti-AI, anti-youth, anti-purpose, or nostalgic for old hierarchy.
+The book positions context collapse as the diagnosis; formation after context collapse is the promise, and practice is the test. It is not anti-remote, anti-AI, anti-youth, anti-purpose, or nostalgic for old hierarchy.
 
 The main book now carries a complete 45-chapter spine across four parts: symptoms, diagnosis, reconstruction, and adult formation. The print route keeps the backmatter compact, while the companion library carries the longer appendix papers, workbook material, and source trail.
 
@@ -30,7 +30,7 @@ The main book now carries a complete 45-chapter spine across four parts: symptom
 - The Panta Rhei series is now a published seven-volume research trail rather than a promise.
 - The AI argument has matured into an AI-era formation argument.
 - The companion library carries the appendix papers, workbook material, and source compendium outside the printed spine.
-- Evidence boundaries are stronger: public research, composite scenes, local observation, author models, practice heuristics, analogies, and speculative bridges are labeled separately.
+- Evidence boundaries are stronger: public data, composite scenes, local observations, author models, parable and craft voice, disciplined analogies, practice heuristics, mathematical provenance, and scenarios are labeled separately.
 - The five-framework operating system now gives readers a practical route from diagnosis to action.
 
 ## Start Here

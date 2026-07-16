@@ -14,7 +14,7 @@ Das Betriebssystem ist kein Transformationsprogramm. Es ist eine Sequenz erster 
 - **Tage 1-14:** Wert kartieren und den Schmerz benennen.
 - **Tage 15-30:** wiederkehrende Entscheidungsrechte und kanonische Aufzeichnungen klären.
 - **Tage 31-45:** einen Konfliktpfad und eine Reparaturschleife schaffen.
-- **Tage 46-60:** eine KI-exponierte Formationsleiter schützen.
+- **Tage 46-60:** eine KI-exponierte Bildungsleiter schützen.
 - **Tage 61-90:** eine Review-Kadenz installieren und fragen, was sich verändert hat, was gehalten hat und was weiter leckt.
 
-Zeitliche Architektur unterstützt die ganze Sequenz: Karten, Entscheidungen, Konflikte und Formationsstufen überleben nur, wenn jemand den Rhythmus der Überprüfung besitzt.
+Zeitliche Architektur unterstützt die ganze Sequenz: Karten, Entscheidungen, Konflikte und Bildungssprossen überleben nur, wenn jemand den Rhythmus der Überprüfung besitzt.

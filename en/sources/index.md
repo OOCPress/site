@@ -4,17 +4,19 @@ description: Creative nonfiction, public research, author models, analogies, and
 kicker: Trust Layer
 ---
 
-This book uses creative nonfiction to make patterns visible. Quantitative claims, public-company references, author models, analogies, composite scenes, practice heuristics, and speculative bridges are labeled differently because they do different kinds of work.
+This book is not a primary quantitative study. It is a work of creative nonfiction, professional synthesis, and practical argument. To keep the contract clear, every claim falls into one of nine categories.
 
 ## Evidence Categories
 
-- **Public research and data:** cited institutional reports, papers, surveys, and public sources.
-- **Vendor and survey material:** useful directional evidence, not neutral causal proof.
-- **Composite scenes:** transformed narrative examples that represent recurring patterns.
-- **Local observation:** author experience, professional judgment, and bounded field interpretation.
-- **Author practice models:** tools to test locally, not externally validated instruments.
-- **Practice heuristics:** Monday-morning moves that must be adapted to context.
-- **Formal bridges and speculative provocations:** mathematical, philosophical, and future-facing lenses, not empirical proof of organizational claims.
+- **Public data:** cited reports, surveys, academic work, statistics, and institutional documents, always limited by source, date, and scope.
+- **Composite scenes:** protected and transformed workplace patterns that illustrate recurring dynamics; they are not audited case studies.
+- **Local observations:** professional experience, field notes, workshops, interviews, and consulting patterns; useful, but not population samples.
+- **Author models:** frameworks, formulas, and typologies used to organize judgment; they are heuristics, not validated instruments.
+- **Parable and craft voice:** Klaus and similar literary containers help memory and conscience; they do not testify.
+- **Disciplined analogies:** brewing, architecture, brain, internet, history, or mathematics can transfer a bounded lesson; the source domain does not prove the organizational claim.
+- **Practice heuristics:** Monday actions, checklists, ratios, and protocols are starting points to test and adapt.
+- **Mathematical provenance:** Panta Rhei and category-theory language provide vocabulary and companion depth, not empirical proof of workplace life.
+- **Scenarios:** AI futures and other speculative material are thought experiments, not forecasts or professional advice.
 
 ## Volatile Source Shelf
 

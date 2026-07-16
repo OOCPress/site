@@ -40,11 +40,12 @@ items_de:
     summary: Bauen Sie legitime Wege für Widerspruch, Eskalation, Reparatur, Berufung und Whistleblowing.
     subtitle: Stimme, Widerspruch, Eskalation und Reparatur als organisatorisches Handwerk.
     repair: Anstands- und Stimmenkollaps
-  - title: Formationsleiter
-    url: /de/rahmenwerke/formationsleiter/
+  - title: Bildungsleiter
+    url: /de/rahmenwerke/bildungsleiter/
     summary: Schützen Sie die Entwicklungsstufen, durch die Novizinnen und Novizen zu Fachleuten werden, gerade in KI-augmentierter Arbeit.
-    subtitle: Die Stufen schützen, durch die Anfänger zu Profis werden.
+    subtitle: Die Sprossen schützen, durch die Anfänger zu Profis werden.
     repair: De-Skilling und Kollaps erwachsener Formation
+sequence_de:
   - title: 90-Tage-Kontext-Betriebssystem
     url: /de/rahmenwerke/90-tage-kontext-betriebssystem/
     summary: Eine praktische Sequenz, um von der Diagnose in die Rekonstruktion zu kommen.

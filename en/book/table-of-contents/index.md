@@ -1,6 +1,6 @@
 ---
 title: Table of Contents
-description: The release-candidate hardcover route contains 45 chapters across four parts, plus prologue, epilogue, and compact backmatter.
+description: The hardcover contains 45 chapters across four parts, plus prologue, epilogue, and compact backmatter.
 kicker: Book
 ---
 
