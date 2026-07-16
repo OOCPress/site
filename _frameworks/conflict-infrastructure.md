@@ -1,5 +1,6 @@
 ---
 title: Conflict Infrastructure
+description: Voice, dissent, escalation, and repair as organizational craft.
 subtitle: Voice, dissent, escalation, and repair as organizational craft.
 order: 40
 repair: Decency and voice collapse

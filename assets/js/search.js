@@ -4,14 +4,14 @@ function searchMessages() {
   if (document.documentElement.lang === "de") {
     return {
       empty: "Geben Sie einen Suchbegriff ein.",
-      unavailable: "Die Suche ist nach dem Pagefind-Build verfügbar.",
+      unavailable: "Die Suche ist vorübergehend nicht verfügbar. Bitte versuchen Sie es in Kürze erneut.",
       none: "Keine Ergebnisse gefunden."
     };
   }
 
   return {
     empty: "Type a search term to begin.",
-    unavailable: "Search is available after the Pagefind build step.",
+    unavailable: "Search is temporarily unavailable. Please try again shortly.",
     none: "No results found."
   };
 }

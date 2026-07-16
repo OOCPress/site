@@ -1,5 +1,6 @@
 ---
 title: EPUB / PDF
+description: Direct digital edition planned outside KDP Select exclusivity.
 subtitle: Direct digital edition planned outside KDP Select exclusivity.
 order: 30
 status: planned

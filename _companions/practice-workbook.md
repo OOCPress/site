@@ -1,5 +1,6 @@
 ---
 title: Practice Workbook
+description: Monday Morning actions, reflection prompts, and team practice routes.
 subtitle: Monday Morning actions, reflection prompts, and team practice routes.
 order: 10
 status: available

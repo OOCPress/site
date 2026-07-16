@@ -1,5 +1,6 @@
 ---
 title: Formation Ladder
+description: Protect the rungs through which novices become professionals.
 subtitle: Protect the rungs through which novices become professionals.
 order: 50
 repair: Deskilling and adult-formation collapse

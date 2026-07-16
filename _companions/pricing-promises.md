@@ -1,5 +1,6 @@
 ---
 title: Pricing Promises
+description: A companion paper on market-based accountability and executive targets.
 subtitle: A companion paper on market-based accountability and executive targets.
 order: 60
 status: in-preparation

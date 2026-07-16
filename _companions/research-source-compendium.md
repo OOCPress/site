@@ -1,5 +1,6 @@
 ---
 title: Research and Source Compendium
+description: Chapter source notes, evidence boundaries, volatile-data updates, and extended bibliography.
 subtitle: Chapter source notes, evidence boundaries, volatile-data updates, and extended bibliography.
 order: 20
 status: available

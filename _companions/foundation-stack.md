@@ -1,5 +1,6 @@
 ---
 title: The Foundation Stack
+description: A practitioner's guide to text, version control, automation, and AI infrastructure.
 subtitle: A practitioner's guide to text, version control, automation, and AI infrastructure.
 order: 40
 status: in-preparation

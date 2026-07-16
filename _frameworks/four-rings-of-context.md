@@ -1,5 +1,6 @@
 ---
 title: Four Rings of Context
+description: Distinguish purpose, principles, playfield, and state.
 subtitle: Distinguish purpose, principles, playfield, and state.
 order: 20
 repair: Knowledge, meaning, and coordination collapse

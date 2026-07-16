@@ -1,5 +1,6 @@
 ---
 title: The Functor Lens
+description: A bridge companion to context, containers, and meaning.
 subtitle: A bridge companion to context, containers, and meaning.
 order: 50
 status: in-preparation

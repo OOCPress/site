@@ -1,5 +1,6 @@
 ---
 title: Bundle
+description: Book plus digital formats and companion access.
 subtitle: Book plus digital formats and companion access.
 order: 50
 status: planned

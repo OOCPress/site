@@ -1,5 +1,6 @@
 ---
 title: Paperback
+description: Lighter print edition for everyday reading and team circulation.
 subtitle: Lighter print edition for everyday reading and team circulation.
 order: 20
 status: release-prep

@@ -1,5 +1,6 @@
 ---
 title: Value Creation Map
+description: Make the actual chain of value visible before redesigning anything.
 subtitle: Make the actual chain of value visible before redesigning anything.
 order: 10
 repair: Value and operational collapse

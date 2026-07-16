@@ -1,5 +1,6 @@
 ---
 title: 90-Day Context Operating System
+description: A practical sequence for moving from diagnosis to reconstruction.
 subtitle: A practical sequence for moving from diagnosis to reconstruction.
 order: 60
 repair: Executive activation

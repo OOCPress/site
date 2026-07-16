@@ -1,5 +1,6 @@
 ---
 title: Audiobook
+description: Audio edition under evaluation.
 subtitle: Audio edition under evaluation.
 order: 40
 status: planned

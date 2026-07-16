@@ -1,5 +1,6 @@
 ---
 title: Decision Rights and Healthy Hierarchy
+description: Clarify who may decide what, with which evidence, under which review conditions.
 subtitle: Clarify who may decide what, with which evidence, under which review conditions.
 order: 30
 repair: Structural and authority collapse

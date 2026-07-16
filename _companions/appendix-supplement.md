@@ -1,5 +1,6 @@
 ---
 title: Appendix Supplement
+description: The full companion appendix package outside the printed spine.
 subtitle: The full companion appendix package outside the printed spine.
 order: 30
 status: available

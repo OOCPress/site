@@ -1,5 +1,6 @@
 ---
 title: Hardcover
+description: Premium print edition for readers who want the physical spine.
 subtitle: Premium print edition for readers who want the physical spine.
 order: 10
 status: release-prep
