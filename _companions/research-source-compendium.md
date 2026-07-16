@@ -2,7 +2,7 @@
 title: Research and Source Compendium
 subtitle: Chapter source notes, evidence boundaries, volatile-data updates, and extended bibliography.
 order: 20
-status: coming-with-release
+status: available
 version: "2026-07"
 formats:
   - PDF

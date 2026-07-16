@@ -480,6 +480,12 @@
   text-transform: uppercase;
 }
 
+.status-badge--available {
+  border-color: var(--color-navy-700);
+  background: var(--color-navy-700);
+  color: var(--color-white);
+}
+
 .status-badge--coming-with-release,
 .status-badge--release-prep {
   border-color: color-mix(in srgb, var(--color-accent), var(--color-rule) 62%);

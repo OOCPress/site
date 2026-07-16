@@ -4,7 +4,7 @@ title: Appendix-Supplement
 description: Das vollständige Companion-Appendix-Paket außerhalb der gedruckten Wirbelsäule.
 lang: de
 subtitle: Das vollständige Companion-Appendix-Paket außerhalb der gedruckten Wirbelsäule.
-status: coming-with-release
+status: available
 version: "2026-07"
 formats:
   - PDF

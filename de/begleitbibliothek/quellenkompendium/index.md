@@ -4,7 +4,7 @@ title: Forschungs- und Quellenkompendium
 description: Kapitel-Quellennotizen, Evidenzgrenzen, volatile Datenupdates und erweiterte Bibliografie.
 lang: de
 subtitle: Kapitel-Quellennotizen, Evidenzgrenzen, volatile Datenupdates und erweiterte Bibliografie.
-status: coming-with-release
+status: available
 version: "2026-07"
 formats:
   - PDF

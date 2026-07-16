@@ -3,6 +3,8 @@
 {% assign label = status | replace: '-', ' ' %}
 {% if page_lang == 'de' %}
   {% case status %}
+    {% when 'available' %}
+      {% assign label = 'verfügbar' %}
     {% when 'coming-with-release' %}
       {% assign label = 'erscheint zum Release' %}
     {% when 'in-preparation' %}

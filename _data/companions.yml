@@ -1,34 +1,37 @@
 items:
   - title: Practice Workbook
     url: /en/companion-library/practice-workbook/
-    status: coming-with-release
+    status: available
     version: "2026-07"
     formats: PDF, printable worksheets
     audience: Readers and teams
     summary: Monday Morning actions, reflection prompts, and leadership-team practice paths.
     related_chapters: Operational Clarity; Conflict Infrastructure; Four Hours or Forty
     risk_boundary: Practice prompts, not consulting advice or a one-size-fits-all transformation program.
-    action_label: View release status
+    action_label: Download PDF
+    download_url: /assets/downloads/companions/practice-workbook.pdf
   - title: Research and Source Compendium
     url: /en/companion-library/research-source-compendium/
-    status: coming-with-release
+    status: available
     version: "2026-07"
     formats: PDF, HTML source register
     audience: Researchers and reviewers
     summary: Chapter source notes, evidence boundaries, volatile-data updates, and extended bibliography.
     related_chapters: All chapters; Sources and Research Digest
     risk_boundary: Source trail and evidence boundary, not a claim that every narrative scene is empirical data.
-    action_label: Track source updates
+    action_label: Download PDF
+    download_url: /assets/downloads/companions/research-source-compendium.pdf
   - title: Appendix Supplement
     url: /en/companion-library/appendix-supplement/
-    status: coming-with-release
+    status: available
     version: "2026-07"
     formats: PDF
     audience: Deep readers
     summary: The companion appendix package containing the formal, tooling, and accountability essays.
     related_chapters: Appendix routes; Panta Rhei bridge; companion papers
     risk_boundary: Deepening material, not required reading for the main argument.
-    action_label: View supplement status
+    action_label: Download PDF
+    download_url: /assets/downloads/companions/appendix-supplement.pdf
   - title: The Foundation Stack
     url: /en/companion-library/foundation-stack/
     status: in-preparation
@@ -62,34 +65,37 @@ items:
 items_de:
   - title: Praxis-Workbook
     url: /de/begleitbibliothek/praxis-workbook/
-    status: coming-with-release
+    status: available
     version: "2026-07"
     formats: PDF, druckbare Arbeitsblätter
     audience: Leserinnen, Leser und Teams
     summary: Monday-Morning-Aktionen, Reflexionsfragen und Praxispfade für Führungsteams.
     related_chapters: Operational Clarity; Conflict Infrastructure; Four Hours or Forty
     risk_boundary: Praxisimpulse, keine Beratungsleistung und kein universelles Transformationsprogramm.
-    action_label: Release-Status ansehen
+    action_label: PDF herunterladen
+    download_url: /assets/downloads/companions/practice-workbook-de.pdf
   - title: Forschungs- und Quellenkompendium
     url: /de/begleitbibliothek/quellenkompendium/
-    status: coming-with-release
+    status: available
     version: "2026-07"
     formats: PDF, HTML-Quellenregister
     audience: Forschende und Reviewer
     summary: Kapitel-Quellennotizen, Evidenzgrenzen, volatile Datenupdates und erweiterte Bibliografie.
     related_chapters: Alle Kapitel; Sources and Research Digest
     risk_boundary: Quellenpfad und Evidenzgrenze, keine Behauptung, dass jede narrative Szene empirische Primärdaten enthält.
-    action_label: Quellenupdates verfolgen
+    action_label: PDF herunterladen
+    download_url: /assets/downloads/companions/research-source-compendium-de.pdf
   - title: Appendix-Supplement
     url: /de/begleitbibliothek/appendix-supplement/
-    status: coming-with-release
+    status: available
     version: "2026-07"
     formats: PDF
     audience: vertiefende Leserinnen und Leser
     summary: Das ausgelagerte Appendix-Paket mit formalen, technischen und accountability-bezogenen Essays.
     related_chapters: Appendix-Routen; Panta-Rhei-Brücke; Companion-Papiere
     risk_boundary: Vertiefungsmaterial, keine Voraussetzung für das Hauptargument.
-    action_label: Supplement-Status ansehen
+    action_label: PDF herunterladen
+    download_url: /assets/downloads/companions/appendix-supplement-de.pdf
   - title: Der Foundation Stack
     url: /de/begleitbibliothek/foundation-stack/
     status: in-preparation

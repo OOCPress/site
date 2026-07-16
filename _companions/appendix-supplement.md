@@ -2,7 +2,7 @@
 title: Appendix Supplement
 subtitle: The full companion appendix package outside the printed spine.
 order: 30
-status: coming-with-release
+status: available
 version: "2026-07"
 formats:
   - PDF

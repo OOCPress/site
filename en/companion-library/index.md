@@ -8,7 +8,7 @@ The main book carries the argument. The companion library carries the working ma
 
 <div class="filter-bar" data-filter-group>
   <button class="filter-bar__button is-active" type="button" data-filter="all">All</button>
-  <button class="filter-bar__button" type="button" data-filter="coming-with-release">Coming with release</button>
+  <button class="filter-bar__button" type="button" data-filter="available">Available</button>
   <button class="filter-bar__button" type="button" data-filter="in-preparation">In preparation</button>
 </div>
 

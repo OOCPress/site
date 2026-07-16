@@ -9,7 +9,7 @@ Das Hauptbuch trägt das Argument. Die Begleitbibliothek trägt die Arbeitsmater
 
 <div class="filter-bar" data-filter-group>
   <button class="filter-bar__button is-active" type="button" data-filter="all">Alle</button>
-  <button class="filter-bar__button" type="button" data-filter="coming-with-release">Erscheint zum Release</button>
+  <button class="filter-bar__button" type="button" data-filter="available">Verfügbar</button>
   <button class="filter-bar__button" type="button" data-filter="in-preparation">In Vorbereitung</button>
 </div>
 

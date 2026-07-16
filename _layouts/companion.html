@@ -66,7 +66,11 @@ layout: default
         <div><dt>{{ chapters_label }}</dt><dd class="chapter-list">{{ companion_info.related_chapters }}</dd></div>
         <div><dt>{{ boundary_label }}</dt><dd>{{ companion_info.risk_boundary }}</dd></div>
       </dl>
-      <p class="section-action"><a class="button button--secondary" href="{{ sources_url | relative_url }}">{{ companion_info.action_label | default: action_fallback }}</a></p>
+      {% if companion_info.download_url %}
+        <p class="section-action"><a class="button button--primary" href="{{ companion_info.download_url | relative_url }}">{{ companion_info.action_label | default: action_fallback }}</a></p>
+      {% else %}
+        <p class="section-action"><a class="button button--secondary" href="{{ sources_url | relative_url }}">{{ companion_info.action_label | default: action_fallback }}</a></p>
+      {% endif %}
     </section>
   {% endif %}
   <nav class="detail-nav" aria-label="{{ nav_label }}">
