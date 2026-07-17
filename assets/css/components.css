@@ -209,8 +209,9 @@
 
 .hero h1 {
   color: var(--color-white);
-  font-family: var(--font-display-wide);
-  font-weight: 800;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-stretch: 75%;
   text-transform: uppercase;
 }
 

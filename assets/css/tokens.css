@@ -35,20 +35,12 @@
 }
 
 @font-face {
-  font-family: "Archivo Expanded";
-  src: url("../fonts/ArchivoExpanded-Bold.woff2") format("woff2"),
-       url("../fonts/ArchivoExpanded-Bold.ttf") format("truetype");
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Archivo Expanded";
-  src: url("../fonts/ArchivoExpanded-Black.woff2") format("woff2"),
-       url("../fonts/ArchivoExpanded-Black.ttf") format("truetype");
+  font-family: "Archivo";
+  src: url("../fonts/ArchivoCondensed-Black.woff2") format("woff2"),
+       url("../fonts/ArchivoCondensed-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
+  font-stretch: 75%;
   font-display: swap;
 }
 
@@ -148,7 +140,6 @@
 
   --font-serif: "Source Serif 4", Georgia, serif;
   --font-display: "Archivo", system-ui, sans-serif;
-  --font-display-wide: "Archivo Expanded", "Archivo", system-ui, sans-serif;
   --font-mono: "Space Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 
   --type-label: 0.78rem;
